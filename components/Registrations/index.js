@@ -14,7 +14,7 @@ export default function Registration() {
           <b>REGISTRATION DETAILS</b>
         </h1>
         <h5 className="text-center" style={{ color: 'red' }}>
-          (Registration Closed)
+          (Registrations Yet to be Opened)
         </h5>
         <p className="text-center">
           At least one author of each accepted paper must register for the

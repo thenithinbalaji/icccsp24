@@ -19,10 +19,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ICCCSP 2023</title>
+        <title>ICCCSP 2024</title>
         <meta
           name="description"
-          content="The 7th International Conference on Computer, Communication and Signal Processing 2023 (ICCCSP '23) has been planned to highlight the rapidly developing technologies related to Artificial Intelligence (AI), Knowledge Engineering and IoT for Smart Systems."
+          content="The 8th edition of the International Conference on Computer, Communication and Signal Processing ICCCSP 2024 has a special focus towards building sustainable AI solutions."
         />
         <link rel="icon" href="https://icccsp.com/img/ssn1.png" />
       </Head>
@@ -30,14 +30,14 @@ export default function Home() {
       <HomeSection />
       <Conference />
       <ImportantDates />
-      <CallForPaper />
+      {/* <CallForPaper /> */}
       {/* <Submission /> */}
       <Committee />
-      <Workshop />
-      <Speakers />
+      {/* <Workshop /> */}
+      {/* <Speakers /> */}
       <Authors />
       <Registrations />
-      <PaymentDetails />
+      {/* <PaymentDetails /> */}
       <Contact />
       <Archive />
       <Footer />

@@ -6,7 +6,7 @@ export default function Contact() {
       <h1 className="text-center"><b>CONTACT US</b></h1>
       <div className="contactDetails">
         <p style={{ fontSize: '24px', fontWeight: 600 }}>Address</p>
-        <p>The ICCCSP 23 team</p>
+        <p>The ICCCSP 24 team</p>
         <p>Department of Information Technology</p>
         <p>SSN College of Engineering,</p>
         <p>Kalavakkam - 603110</p>

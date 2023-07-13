@@ -102,13 +102,13 @@ export const programCommittee = [
 ];
 
 export const organizingCommittee = [
-  { name: 'Malathy E M', image: 'https://icccsp.com/img/malathy.jpeg' },
-  { name: 'Gayathri K S', image: 'https://icccsp.com/img/gayathri.jpeg' },
-  {
-    name: 'Sivamurugan V',
-    image: 'https://icccsp.com/img/vs.jpg',
-  },
-  { name: 'Uthayan K R', image: 'https://icccsp.com/img/uthayan.jpeg' },
+  // { name: 'Malathy E M', image: 'https://icccsp.com/img/malathy.jpeg' },
+  // { name: 'Gayathri K S', image: 'https://icccsp.com/img/gayathri.jpeg' },
+  // {
+  //   name: 'Sivamurugan V',
+  //   image: 'https://icccsp.com/img/vs.jpg',
+  // },
+  // { name: 'Uthayan K R', image: 'https://icccsp.com/img/uthayan.jpeg' },
 ];
 
 export const financeCommittee = [];

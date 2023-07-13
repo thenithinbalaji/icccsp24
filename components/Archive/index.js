@@ -2,6 +2,12 @@ import { Chrono } from 'react-chrono';
 
 const items = [
   {
+    title: '2022 - 2023',
+    cardTitle: "ICCCSP '23",
+    cardSubtitle: 'Special focus on AI, Knowledge Engineering and IoT for Smart Systems',
+    url: 'https://www.icccsp.com/2023/',
+  },
+  {
     title: '2021 - 2022',
     cardTitle: "ICCCSP '22",
     cardSubtitle: 'Special focus on AI and Cyber Security',

@@ -62,7 +62,7 @@ export default function Committee() {
           ))}
         </div>
       </div> */}
-      <div className="section-wrapper">
+      {/* <div className="section-wrapper">
         <h1>
           <b>ORGANIZING COMMITTEE</b>
         </h1>
@@ -76,8 +76,8 @@ export default function Committee() {
             </div>
           ))}
         </div>
-      </div>
-      <div className="section-wrapper grid-container">
+      </div> */}
+      {/* <div className="section-wrapper grid-container">
         <div>
           <h2 style={{ color: '#0765b0' }}>
             <b>
@@ -141,7 +141,7 @@ export default function Committee() {
             <div>B. Sendhil Kumar </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="section-wrapper">
         <h1>
           <b>SPONSOR COMMITTEE</b>

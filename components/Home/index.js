@@ -1,21 +1,26 @@
 export default function HomeSection() {
   return (
     <div id="home" className="homeContainer">
-      <h1 className="event-name">ICCCSP 2023</h1>
+
+      <h1 className="event-name">ICCCSP 2024</h1>
+
       <h1>
-        7<sup>th</sup> International Conference on Computer, Communication and
+        8<sup>th</sup> International Conference on Computer, Communication and
         Signal Processing
       </h1>
-      <h1>January 4 – 6 , 2023</h1>
+
+      <h1>March 20 - 22, 2024</h1>
+
       <p className="textContents">
         <span style={{ fontWeight: 500 }}>Special Focus on</span>
         <br />
         <br />
         <b style={{ lineHeight: '40px' }}>
-          AI, Knowledge Engineering and IoT for Smart Systems
+          Smart Solutions for SDG
         </b>
       </p>
-      <div
+
+      {/* <div
         style={{
           display: 'flex',
           justifyContent: 'center',
@@ -40,10 +45,11 @@ export default function HomeSection() {
         >
           <u>Conference Schedule</u>
         </a>
-      </div>
+      </div> */}
 
-      <div className="items">
-        <div className="home-img">
+      {/* <div className="items"> */}
+
+      {/* <div className="home-img">
           <img
             src="https://icccsp.com/img/ifip.jpeg"
             alt="Springer"
@@ -52,25 +58,28 @@ export default function HomeSection() {
           <h1 className="ifip" style={{ color: 'white' }}>
             IFIP Event Number: <span>04695</span>
           </h1>
+        </div> */}
+
+      <div className="address">
+        <div style={{ fontSize: '24px', textAlign: 'center' }}>
+          Department of Information Technology
+        </div>{' '}
+        <h1
+          style={{ fontWeight: 800, margin: '5px 0 5px 0', fontSize: '30' }}
+        >
+          SSN College of Engineering
+        </h1>{' '}
+        <div style={{ fontSize: '15px', textAlign: 'center' }}>
+          Rajiv Gandhi Salai, Kalavakkam - 603 110{' '}
         </div>
-        <div className="address">
-          <div style={{ fontSize: '24px', textAlign: 'center' }}>
-            Department of Information Technology
-          </div>{' '}
-          <h1
-            style={{ fontWeight: 800, margin: '5px 0 5px 0', fontSize: '30' }}
-          >
-            SSN College of Engineering
-          </h1>{' '}
-          <div style={{ fontSize: '15px', textAlign: 'center' }}>
-            Rajiv Gandhi Salai, Kalavakkam - 603 110{' '}
-          </div>
-          <div style={{ fontSize: '17px', textAlign: 'center' }}>
-            {' '}
-            Chennai, Tamilnadu, India.
-          </div>
+        <div style={{ fontSize: '17px', textAlign: 'center' }}>
+          {' '}
+          Chennai, Tamilnadu, India.
         </div>
-        <div className="home-img">
+
+      </div>
+
+      {/* <div className="home-img">
           <img
             src="https://icccsp.com/img/springer.jpeg"
             alt="Springer"
@@ -84,14 +93,16 @@ export default function HomeSection() {
               (Approved)
             </span>
           </p>
-        </div>
-      </div>
+        </div> */}
 
-      <h3 style={{ textAlign: 'center' }}>
+      {/* </div> */}
+
+      {/* <h3 style={{ textAlign: 'center' }}>
         <span className="animate__animated animate__flash animate__slower animate__infinite">
           Scopus indexed publication in IFIP AICT SPRINGER SERIES
         </span>
-      </h3>
+      </h3> */}
+
       {/* <div className="btnContainer">
         <button>Brochure</button>
         <button>Paper Submission</button>
@@ -99,6 +110,7 @@ export default function HomeSection() {
         <button>Schedule</button>
         <button>Pre-Conference Workshop and Registration</button>
       </div> */}
+
     </div>
   );
 }

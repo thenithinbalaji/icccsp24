@@ -7,10 +7,7 @@ export default function Authors() {
       <br />
       <h3>Paper Submission and Guidelines</h3>
       <p>
-        Authors can contribute regular paper with scientific / technical
-        research works, survey works and industrial experiences that include
-        significant advances in field of Artificial Intelligence, Knowledge
-        Engineering and IoT.  Authors should write their papers in British
+        Authors should write their papers in British
         English. The paper should not exceed 15 pages including references.
         <br />
         <br /> The submission should be novel, plagiarism free and not
@@ -42,7 +39,7 @@ export default function Authors() {
         </span>
         <br />
       </p>
-      <h3 style={{ marginBottom: '15px', marginTop: '15px' }}>
+      {/* <h3 style={{ marginBottom: '15px', marginTop: '15px' }}>
         Submission{' '}
         <span
           style={{ color: 'red' }}
@@ -50,7 +47,7 @@ export default function Authors() {
         >
           (Closed)
         </span>
-      </h3>
+      </h3> */}
       {/* <p>
         The manuscript should be submitted in PDF format using the conference
         management system Easychair, in the following link: <br />
