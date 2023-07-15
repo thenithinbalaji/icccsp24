@@ -35,8 +35,8 @@ export default function Home() {
       <Committee />
       {/* <Workshop /> */}
       {/* <Speakers /> */}
-      <Authors />
-      <Registrations />
+      {/* <Authors /> */}
+      {/* <Registrations /> */}
       {/* <PaymentDetails /> */}
       <Contact />
       <Archive />
