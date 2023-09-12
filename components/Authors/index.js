@@ -1,11 +1,15 @@
 export default function Authors() {
   return (
     <div className="authorsContainer" id="authors">
+
       <h1>
         <b>FOR AUTHORS</b>
       </h1>
+
       <br />
+
       <h3>Paper Submission and Guidelines</h3>
+
       <p>
         Authors can contribute regular paper with scientific / technical research works, survey
         works and industrial experiences that include significant advances in field of Artificial
@@ -19,6 +23,7 @@ export default function Authors() {
       </p>
 
       <br />
+
       <p>
         On submissions, file name should include the SDG number from the following list (such as SGD 1.doc):
         <ul>
@@ -47,14 +52,15 @@ export default function Authors() {
 
       <br />
 
-      <h3>Templates</h3>
+      {/* <h3>Templates</h3>
       <a href="/WordTemplates.zip" download>
         Click here For Sample Springer Paper Format in Word
       </a>
       <br />
       <a href="/LaTexTemplates.zip" download>
         Click here For Sample Springer Paper Format (LaTex Template)
-      </a>
+      </a> */}
+
       {/* <p>
         For more detailed guidelines, please visit{' '}
         <span>
@@ -68,6 +74,7 @@ export default function Authors() {
         </span>
         <br />
       </p> */}
+
       {/* <h3 style={{ marginBottom: '15px', marginTop: '15px' }}>
         Submission{' '}
         <span
@@ -77,6 +84,7 @@ export default function Authors() {
           (Closed)
         </span>
       </h3> */}
+
       {/* <p>
         The manuscript should be submitted in PDF format using the conference
         management system Easychair, in the following link: <br />
@@ -88,10 +96,12 @@ export default function Authors() {
           https://easychair.org/conferences/?conf=icccsp2023
         </a>
       </p> */}
+
       <p style={{ fontWeight: 600 }}>
         At least one author of each accepted paper must register for the
         conference and present the paper.
       </p>
+
     </div>
   );
 }

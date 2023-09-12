@@ -9,6 +9,7 @@ export const advisoryCommittee = [
     name: 'Sobha L',
     title: 'Researcher, Computational Linguistics Research Group',
     description: 'AU-KBC Research Centre, MIT Campus, Anna University Chennai',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYauHfqofMn7KTqlpN0SgQIBvBDAMxEYqexi_COX8UgIvmKA8myFhVuqJZ1mGBrJhh97E&usqp=CAU',
   },
   {
     name: 'Balaraman Ravindran',
@@ -75,15 +76,21 @@ export const programCommittee = [
 export const organizingCommittee = [
   {
     name: 'Dr. S. Mohanavalli',
+    title: 'Associate Professor, Dept. of Information Technology',
+    description: 'SSN College of Engineering, Chennai, India',
     image:
       'https://www.ssn.edu.in/wp-content/uploads/2020/04/Dr.-S.-Mohanavalli.jpg',
   },
   {
     name: 'Dr. N. Sripriya',
+    title: 'Associate Professor, Dept. of Information Technology',
+    description: 'SSN College of Engineering, Chennai, India',
     image: 'https://www.ssn.edu.in/wp-content/uploads/2020/04/it_sripriya1.jpg',
   },
   {
     name: 'Dr. J. Sofia Jennifer',
+    title: 'Assistant Professor, Dept. of Information Technology',
+    description: 'SSN College of Engineering, Chennai, India',
     image: 'https://www.ssn.edu.in/wp-content/uploads/2020/04/sofia.jpg',
   },
 ];

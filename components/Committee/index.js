@@ -11,6 +11,7 @@ import {
 export default function Committee() {
   return (
     <div className="committeeContainer" id="committee">
+
       <div className="section-wrapper">
         <h1>
           <b>PROGRAM COMMITTEE</b>
@@ -28,6 +29,7 @@ export default function Committee() {
           ))}
         </div>
       </div>
+
       <div className="section-wrapper">
         <h1>
           <b>ADVISORY COMMITTEE</b>
@@ -45,6 +47,7 @@ export default function Committee() {
           ))}
         </div>
       </div>
+
       {/* <div className="section-wrapper">
         <h1>
           <b>CONVENOR</b>
@@ -62,6 +65,7 @@ export default function Committee() {
           ))}
         </div>
       </div> */}
+
       <div className="section-wrapper">
         <h1>
           <b>ORGANIZING COMMITTEE</b>
@@ -72,11 +76,14 @@ export default function Committee() {
               <img src={item.image} alt="Card image cap" loading="lazy" />
               <div className="card-body">
                 <h1 className="card-title">{item.name}</h1>
+                <p className="card-text">{item.title}</p>
+                <p className="card-text">{item.description}</p>
               </div>
             </div>
           ))}
         </div>
       </div>
+
       {/* <div className="section-wrapper grid-container">
         <div>
           <h2 style={{ color: '#0765b0' }}>
@@ -142,6 +149,7 @@ export default function Committee() {
           </div>
         </div>
       </div> */}
+
       {/* <div className="section-wrapper">
         <h1>
           <b>SPONSOR COMMITTEE</b>
@@ -217,6 +225,7 @@ export default function Committee() {
           ))}
         </div>
       </div> */}
+
     </div>
   );
 }
