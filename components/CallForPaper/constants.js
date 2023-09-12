@@ -67,5 +67,5 @@ export const PAPERS = [
       'IoT and block chain',
       'IoT applications for smart systems',
     ],
-  }
+  },
 ];

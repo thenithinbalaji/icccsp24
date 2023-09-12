@@ -26,7 +26,7 @@ export default function Authors() {
           <li>SDG 2: Zero Hunger</li>
           <li>SDG 3: Health</li>
           <li>SDG 4: Education</li>
-          <li>SDG 5: Gender equality and women's empowerment</li>
+          <li>SDG 5: Gender equality and women&rsquo;s empowerment</li>
           <li>SDG 6: Water and Sanitation</li>
           <li>SDG 7: Energy</li>
           <li>SDG 8: Economic Growth</li>
@@ -41,7 +41,7 @@ export default function Authors() {
           <li>SDG 17: Partnerships for the goals</li>
         </ul>
 
-        Authors should abide Springer's authors' guidelines and use its proceedings templates,
+        Authors should abide Springer&rsquo;s authors&rsquo; guidelines and use its proceedings templates,
         either LaTeX or Word, for the preparation of manuscripts.
       </p>
 
