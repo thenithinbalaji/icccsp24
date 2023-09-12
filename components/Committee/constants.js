@@ -1,5 +1,16 @@
 export const advisoryCommittee = [
   {
+    name: 'Dr. S. PALANIVEL',
+    title: 'Professor, Dept. of Computer Science and Engineering',
+    description: 'Annamalai University',
+    image: 'https://annamalaiuniversity.ac.in/assets/staff_photos/03277.jpg',
+  },
+  {
+    name: 'Sobha L',
+    title: 'Researcher, Computational Linguistics Research Group',
+    description: 'AU-KBC Research Centre, MIT Campus, Anna University Chennai',
+  },
+  {
     name: 'Balaraman Ravindran',
     title: 'Professor, Dept. of Computer Science and Engineering',
     description: 'IIT Madras, India',
@@ -63,16 +74,16 @@ export const programCommittee = [
 
 export const organizingCommittee = [
   {
-    name: 'S. Mohanavalli',
+    name: 'Dr. S. Mohanavalli',
     image:
       'https://www.ssn.edu.in/wp-content/uploads/2020/04/Dr.-S.-Mohanavalli.jpg',
   },
   {
-    name: 'N. Sripriya',
+    name: 'Dr. N. Sripriya',
     image: 'https://www.ssn.edu.in/wp-content/uploads/2020/04/it_sripriya1.jpg',
   },
   {
-    name: 'J. Sofia Jennifer',
+    name: 'Dr. J. Sofia Jennifer',
     image: 'https://www.ssn.edu.in/wp-content/uploads/2020/04/sofia.jpg',
   },
 ];

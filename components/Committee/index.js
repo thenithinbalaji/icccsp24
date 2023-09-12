@@ -13,11 +13,11 @@ export default function Committee() {
     <div className="committeeContainer" id="committee">
       <div className="section-wrapper">
         <h1>
-          <b>ADVISORY COMMITTEE</b>
+          <b>PROGRAM COMMITTEE</b>
         </h1>
         <div className="aboutus-row cards-wrapper">
-          {advisoryCommittee.map(item => (
-            <div className="card-item advisory" key={item.name}>
+          {programCommittee.map(item => (
+            <div className="card-item" key={item.name}>
               <img src={item.image} alt="Card image cap" loading="lazy" />
               <div className="card-body">
                 <h1 className="card-title">{item.name}</h1>
@@ -30,11 +30,11 @@ export default function Committee() {
       </div>
       <div className="section-wrapper">
         <h1>
-          <b>PROGRAM COMMITTEE</b>
+          <b>ADVISORY COMMITTEE</b>
         </h1>
         <div className="aboutus-row cards-wrapper">
-          {programCommittee.map(item => (
-            <div className="card-item" key={item.name}>
+          {advisoryCommittee.map(item => (
+            <div className="card-item advisory" key={item.name}>
               <img src={item.image} alt="Card image cap" loading="lazy" />
               <div className="card-body">
                 <h1 className="card-title">{item.name}</h1>
