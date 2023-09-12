@@ -5,7 +5,7 @@ import HomeSection from '../components/Home';
 import Conference from '../components/Conference';
 import Committee from '../components/Committee';
 import CallForPaper from '../components/CallForPaper';
-// import Submission from '../components/Submission';
+import Submission from '../components/Submission';
 import Speakers from '../components/Speakers';
 import Authors from '../components/Authors';
 import Registrations from '../components/Registrations';
@@ -26,21 +26,23 @@ export default function Home() {
         />
         <link rel="icon" href="https://icccsp.com/img/ssn1.png" />
       </Head>
+
       <NavBar />
       <HomeSection />
       <Conference />
+      <CallForPaper />
       <ImportantDates />
-      {/* <CallForPaper /> */}
-      {/* <Submission /> */}
+      <Submission />
+      <Authors />
       <Committee />
       {/* <Workshop /> */}
       {/* <Speakers /> */}
-      {/* <Authors /> */}
       {/* <Registrations /> */}
       {/* <PaymentDetails /> */}
       <Contact />
       <Archive />
       <Footer />
+
     </>
   );
 }

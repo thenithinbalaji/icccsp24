@@ -50,40 +50,24 @@ export default function Conference() {
         </div>
         <br />
         <p>
-          The 8th edition of the International Conference on Computer, Communication and Signal Processing ICCCSP 2024 has a special focus towards building sustainable AI solutions. The 2030 agenda for sustainable development agreed by the UN member countries is to improve the quality of life in the economic, social, and environmental aspects through the 17 core Sustainable Development Goals (SDG) - <a href="https://ifip.org/">( https://sdgs.un.org/goals)</a>, which has good scope for deployment of smart solutions, to attain the 169 targets by 2030. ICCCSP 2024 aims to provide a collaborative platform for industry experts and researchers who are keen in employing AI and ML techniques in the design of smart solutions for attaining the SDGs.
+          ICCCSP 2024 strives to foster a collaborative platform where scholars and professionals
+          convene to exchange ideas and present their latest advancements. With a specific focus on
+          &quot;Smart Solutions for SDG,&quot; the conference aligns with the 2030 agenda for sustainable
+          development proposed by the United Nations. By exploring innovative approaches and
+          groundbreaking research, we endeavour to contribute to the enhancement of economic,
+          social, and environmental dimensions in pursuit of the 17 core SDGs.
         </p>
-        <h2>
-          International Federation for Information Processing( IFIP) our
-          supporter
-        </h2>
-        <h3 style={{ marginTop: '20px' }}>
-          <a href="https://ifip.org/">IFIP TC12 - Artificial Intelligence</a>
-        </h3>
+        <br />
         <p>
-          AI is one of the oldest and most exciting subfields of computing,
-          covering such areas as intelligent robotics, intelligent planning and
-          scheduling, model-based reasoning, fault diagnosis, natural language
-          processing, machine translation, knowledge representation and
-          reasoning, knowledge- based systems, knowledge engineering,
-          intelligent agents, machine learning, neural nets, genetic algorithms
-          and knowledge management. TC12 was formed back in 1989. It now has
-          members representing 33 national computer societies, together with
-          representatives of the ACM and the IEEE, and has several working
-          groups covering major topics in AI. <br /> In recent years, TC12 and
-          its Working Groups have sponsored or co-sponsored a range of events
-          worldwide. Details of some of these are given on this website. It has
-          also made major contributions to recent IFIP World Computer
-          Congresses. <br />
-          ICCCSP 2023 is proud in associating with TC12, our respect to The
-          chair of TC12 <br />
-          <i>Professor Eunika Mercier-Laurent</i>
+          We take great pride in the approval from the prestigious International Federation for
+          Information Processing (IFIP) that is imminent, and we are honoured to collaborate with
+          Springer, further augmenting the calibre and influence of this esteemed event.
         </p>
-        <a href="https://www.youtube.com/watch?v=w_ORl9mLH0U">
-          <b>
-            IFIP - Leading Professional & Socially Responsible ICT Worldwide
-            (https://www.youtube.com/watch?v=w_ORl9mLH0U)
-          </b>
-        </a>
+
+        {/* <h3 style={{ marginTop: '20px' }}>
+          <a href="https://ifip.org/">IFIP TC12 - Artificial Intelligence</a>
+        </h3> */}
+
         <br />
         <br />
         <AboutUs />

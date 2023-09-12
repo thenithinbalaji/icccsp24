@@ -1,6 +1,6 @@
 const items = [
-  { date: ['August', ' 10,', ' 2023'], event: 'Paper Submission Opens from' },
-  { date: ['September', ' 30,', ' 2023'], event: 'Paper Submission Deadline' },
+  { date: ['September', ' 15,', ' 2023'], event: 'Paper Submission Opens from' },
+  { date: ['October', ' 31,', ' 2023'], event: 'Paper Submission Deadline' },
   { date: ['November', ' 20,', ' 2023'], event: 'Acceptance Notification Starts' },
   { date: ['December', ' 5,', ' 2023'], event: 'Early Bird Registration' },
   { date: ['January', ' 25,', ' 2024'], event: 'Registration closes on' },
