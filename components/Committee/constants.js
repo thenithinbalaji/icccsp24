@@ -28,15 +28,18 @@ export const programCommittee = [
   },
   {
     name: 'Dr. Naveena Yanamala',
-    title: 'Associate Professor of Medicine & Director of AI/ML Research (Rutgers RWJMS, NJ)',
+    title:
+      'Associate Professor of Medicine & Director of AI/ML Research (Rutgers RWJMS, NJ)',
     description: 'Director, Center for Innovation (RWJUH/RWJMS)',
-    image: 'https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ty10p9cAAAAJ&citpid=2',
+    image:
+      'https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ty10p9cAAAAJ&citpid=2',
   },
   {
     name: 'Dr. Mohammad Faizal Bin Ahmad Fauzi',
     title: 'Professor, Multimedia University - MMU',
     description: 'Cyberjaya, Selangor, Malaysia',
-    image: 'https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=PL9wl_MAAAAJ&citpid=2',
+    image:
+      'https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=PL9wl_MAAAAJ&citpid=2',
   },
   {
     name: 'Shahina A',
@@ -59,13 +62,19 @@ export const programCommittee = [
 ];
 
 export const organizingCommittee = [
-  // { name: 'Malathy E M', image: 'https://icccsp.com/img/malathy.jpeg' },
-  // { name: 'Gayathri K S', image: 'https://icccsp.com/img/gayathri.jpeg' },
-  // {
-  //   name: 'Sivamurugan V',
-  //   image: 'https://icccsp.com/img/vs.jpg',
-  // },
-  // { name: 'Uthayan K R', image: 'https://icccsp.com/img/uthayan.jpeg' },
+  {
+    name: 'S. Mohanavalli',
+    image:
+      'https://www.ssn.edu.in/wp-content/uploads/2020/04/Dr.-S.-Mohanavalli.jpg',
+  },
+  {
+    name: 'N. Sripriya',
+    image: 'https://www.ssn.edu.in/wp-content/uploads/2020/04/it_sripriya1.jpg',
+  },
+  {
+    name: 'J. Sofia Jennifer',
+    image: 'https://www.ssn.edu.in/wp-content/uploads/2020/04/sofia.jpg',
+  },
 ];
 
 export const financeCommittee = [];
