@@ -39,6 +39,18 @@ export const programCommittee = [
     image: 'https://icccsp.com/img/xavier.png',
   },
   {
+    name: 'Dr. Vasile Palade',
+    title: 'Professor',
+    description: 'Professor in Artificial Intelligence and Data Science, Research Centre for Computational Science and Mathematical Modelling',
+    image: 'https://pureportal.coventry.ac.uk/files-asset/79465/photo.jpeg?w=160&f=webp',
+  },
+  {
+    name: 'Xiao-Zhi Gao',
+    title: 'Professor',
+    description: 'Faculty of Natural Sciences, Forestry and Technology, Department of Computer Science',
+    image: 'https://uefconnect.uef.fi/wp-content/uploads/2021/02/90341a81310dde86c67fbe6af4835a6d_profile_file.jpg',
+  },
+  {
     name: 'Dr. Naveena Yanamala',
     title:
       'Associate Professor of Medicine & Director of AI/ML Research (Rutgers RWJMS, NJ)',
