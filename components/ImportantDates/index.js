@@ -1,10 +1,19 @@
 const items = [
-  { date: ['September', ' 15,', ' 2023'], event: 'Paper Submission Opens from' },
-  { date: ['October', ' 31,', ' 2023'], event: 'Paper Submission Deadline' },
-  { date: ['November', ' 20,', ' 2023'], event: 'Acceptance Notification Starts' },
-  { date: ['December', ' 5,', ' 2023'], event: 'Early Bird Registration' },
+  {
+    date: ['September', ' 15,', ' 2023'],
+    event: 'Paper Submission Opens from',
+  },
+  { date: ['November', ' 20,', ' 2023'], event: 'Paper Submission Deadline' },
+  {
+    date: ['December', ' 15,', ' 2023'],
+    event: 'Acceptance Notification Starts',
+  },
+  { date: ['January', ' 7,', ' 2023'], event: 'Acceptance Notification Ends' },
   { date: ['January', ' 25,', ' 2024'], event: 'Registration closes on' },
-  { date: ['February', ' 15,', ' 2024'], event: 'Camera-ready Copy Submission' },
+  {
+    date: ['February', ' 15,', ' 2024'],
+    event: 'Deadline for Submission of Revised Paper',
+  },
   { date: ['March', ' 20,', ' 2024'], event: 'Pre-Conference Workshop' },
   { date: ['March', ' 21 - 22,', ' 2024'], event: 'Conference' },
 ];
@@ -13,12 +22,14 @@ const StrikedOutDate = ({ date }) => {
   return (
     <span>
       <s>
-        {date[0]}<sup>{date[1]}</sup>{date[2]}
+        {date[0]}
+        <sup>{date[1]}</sup>
+        {date[2]}
       </s>{' '}
       &nbsp;&nbsp;
     </span>
-  )
-}
+  );
+};
 
 export default function ImportantDates() {
   return (
