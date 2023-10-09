@@ -19,8 +19,8 @@ export default function Committee() {
         <div className="aboutus-row cards-wrapper">
           {programCommittee.map(item => (
             <div className="card-item" key={item.name}>
-              <img src={item.image} alt="Card image cap" loading="lazy" />
-              <div className="card-body">
+              {/* <img src={item.image} alt="Card image cap" loading="lazy" /> */}
+              <div className="card-body flex flex-col justify-center">
                 <h1 className="card-title">{item.name}</h1>
                 <p className="card-text">{item.title}</p>
                 <p className="card-text">{item.description}</p>
@@ -37,8 +37,8 @@ export default function Committee() {
         <div className="aboutus-row cards-wrapper">
           {advisoryCommittee.map(item => (
             <div className="card-item advisory" key={item.name}>
-              <img src={item.image} alt="Card image cap" loading="lazy" />
-              <div className="card-body">
+              {/* <img src={item.image} alt="Card image cap" loading="lazy" /> */}
+              <div className="card-body flex flex-col justify-center">
                 <h1 className="card-title">{item.name}</h1>
                 <p className="card-text">{item.title}</p>
                 <p className="card-text">{item.description}</p>
@@ -73,8 +73,8 @@ export default function Committee() {
         <div className="aboutus-row cards-wrapper">
           {organizingCommittee.map(item => (
             <div className="card-item" key={item.name}>
-              <img src={item.image} alt="Card image cap" loading="lazy" />
-              <div className="card-body">
+              {/* <img src={item.image} alt="Card image cap" loading="lazy" /> */}
+              <div className="card-body flex flex-col justify-center">
                 <h1 className="card-title">{item.name}</h1>
                 <p className="card-text">{item.title}</p>
                 <p className="card-text">{item.description}</p>
