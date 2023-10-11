@@ -64,12 +64,12 @@ export default function Conference() {
           Springer, further augmenting the calibre and influence of this esteemed event.
         </p>
 
-        {/* <h3 style={{ marginTop: '20px' }}>
-          <a href="https://ifip.org/">IFIP TC12 - Artificial Intelligence</a>
-        </h3> */}
+        <h3 style={{ marginTop: '20px' }}>
+          <a href="https://link.springer.com/book/10.1007/978-3-031-39811-7">ICCCSP 2023 Proceedings</a>
+        </h3>
 
         <br />
-        <br />
+
         <AboutUs />
       </div>
     </>
