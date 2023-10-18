@@ -9,6 +9,11 @@ export default function Conference() {
         <h1 className="text-center">
           <b>ABOUT ICCCSP 2024</b>
         </h1>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <h3 style={{ marginTop: '20px' }} className="animate__animated animate__flash animate__slower animate__infinite">
+            <a href="https://link.springer.com/book/10.1007/978-3-031-39811-7" style={{ color: 'red' }}>ICCCSP 2023 Proceedings</a>
+          </h3>
+        </div>
         <div className="aboutus-row">
           <div style={{ flexDirection: 'column' }}>
             <img
@@ -63,10 +68,6 @@ export default function Conference() {
           Information Processing (IFIP) that is imminent, and we are honoured to collaborate with
           Springer, further augmenting the calibre and influence of this esteemed event.
         </p>
-
-        <h3 style={{ marginTop: '20px' }}>
-          <a href="https://link.springer.com/book/10.1007/978-3-031-39811-7">ICCCSP 2023 Proceedings</a>
-        </h3>
 
         <br />
 

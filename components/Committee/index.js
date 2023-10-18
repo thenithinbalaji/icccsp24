@@ -12,36 +12,41 @@ export default function Committee() {
   return (
     <div className="committeeContainer" id="committee">
 
-      <div className="section-wrapper">
-        <h1>
+      <div>
+        <h2
+          style={{
+            color: '#0765b0',
+            textTransform: 'uppercase',
+          }}
+        >
           <b>PROGRAM COMMITTEE</b>
-        </h1>
-        <div className="aboutus-row cards-wrapper">
+        </h2>
+        <div style={{ fontSize: '18px', marginTop: '20px' }} className="flex">
           {programCommittee.map(item => (
-            <div className="card-item" key={item.name}>
-              {/* <img src={item.image} alt="Card image cap" loading="lazy" /> */}
-              <div className="card-body flex flex-col justify-center">
-                <h1 className="card-title">{item.name}</h1>
-                <p className="card-text">{item.title}</p>
-                <p className="card-text">{item.description}</p>
+            <div key={item.name}>
+              <div>
+                <p><b>{item.name}</b>, <span>{item.title}, {item.description}</span></p>
               </div>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="section-wrapper">
-        <h1>
+      <div>
+        <h2
+          style={{
+            color: '#0765b0',
+            textTransform: 'uppercase',
+            marginTop: '20px',
+          }}
+        >
           <b>ADVISORY COMMITTEE</b>
-        </h1>
-        <div className="aboutus-row cards-wrapper">
+        </h2>
+        <div style={{ fontSize: '18px', marginTop: '20px' }} className="flex">
           {advisoryCommittee.map(item => (
-            <div className="card-item advisory" key={item.name}>
-              {/* <img src={item.image} alt="Card image cap" loading="lazy" /> */}
-              <div className="card-body flex flex-col justify-center">
-                <h1 className="card-title">{item.name}</h1>
-                <p className="card-text">{item.title}</p>
-                <p className="card-text">{item.description}</p>
+            <div key={item.name}>
+              <div>
+                <p><b>{item.name}</b>, <span>{item.title}, {item.description}</span></p>
               </div>
             </div>
           ))}
@@ -66,18 +71,21 @@ export default function Committee() {
         </div>
       </div> */}
 
-      <div className="section-wrapper">
-        <h1>
+      <div>
+        <h2
+          style={{
+            color: '#0765b0',
+            textTransform: 'uppercase',
+            marginTop: '20px',
+          }}
+        >
           <b>ORGANIZING COMMITTEE</b>
-        </h1>
-        <div className="aboutus-row cards-wrapper">
+        </h2>
+        <div style={{ fontSize: '18px', marginTop: '20px' }} className="flex">
           {organizingCommittee.map(item => (
-            <div className="card-item" key={item.name}>
-              {/* <img src={item.image} alt="Card image cap" loading="lazy" /> */}
-              <div className="card-body flex flex-col justify-center">
-                <h1 className="card-title">{item.name}</h1>
-                <p className="card-text">{item.title}</p>
-                <p className="card-text">{item.description}</p>
+            <div key={item.name}>
+              <div>
+                <p><b>{item.name}</b>, <span>{item.title}, {item.description}</span></p>
               </div>
             </div>
           ))}
