@@ -20,8 +20,9 @@ export default function NavBar() {
 
   return (
     <div
-      className={`navContainer navChange-mobile ${changeNavColor ? 'navChange' : ''
-        }`}
+      className={`navContainer navChange-mobile ${
+        changeNavColor ? 'navChange' : ''
+      }`}
     >
       <Navbar collapseOnSelect expand="xl">
         <Container>
@@ -29,7 +30,7 @@ export default function NavBar() {
             <Navbar.Brand as="a" className="logo">
               <img
                 src="https://icccsp.com/img/ssn1.png"
-                alt="SSN"
+                alt="Sri Sivasubramaniya Nadar College of Engineering"
                 loading="lazy"
               />
             </Navbar.Brand>

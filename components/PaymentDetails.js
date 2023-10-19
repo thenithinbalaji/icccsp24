@@ -29,7 +29,8 @@ export default function PaymentDetails() {
       <p>
         ICCCSP 2023 conference will be held in the hybrid mode (both physical
         and on-line). The authors of accepted papers from Tamil Nadu will have
-        to present their papers in physical mode in SSN Campus.
+        to present their papers in physical mode in Sri Sivasubramaniya Nadar
+        College Campus.
       </p>
 
       <ul style={{ fontSize: '20px', marginTop: '20px' }}>

@@ -21,7 +21,7 @@ export default function Conference() {
               alt="IFIP"
               height={118}
             />
-            <h2 className="text-center">Approval Awaited</h2>
+            <h2 className="text-center">Approved Event (04823)</h2>
           </div>
 
           <div style={{ flexDirection: 'column' }}>
@@ -57,7 +57,7 @@ export default function Conference() {
         <p>
           ICCCSP 2024 strives to foster a collaborative platform where scholars and professionals
           convene to exchange ideas and present their latest advancements. With a specific focus on
-          &quot;Smart Solutions for SDG,&quot; the conference aligns with the 2030 agenda for sustainable
+          &quot;Smart Solutions towards SDG,&quot; the conference aligns with the 2030 agenda for sustainable
           development proposed by the United Nations. By exploring innovative approaches and
           groundbreaking research, we endeavour to contribute to the enhancement of economic,
           social, and environmental dimensions in pursuit of the 17 core SDGs.

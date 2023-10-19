@@ -18,7 +18,7 @@ export default function CallForPaper() {
           <li>Fuzzy Systems</li>
           <li>Evolutionary Computation and Optimization</li>
           <li>Multi-agent/distributed systems using computational intelligence techniques</li>
-          <li>Computational Intelligence approaches combinations with classical machine learning and statistical methods</li>
+          <li>Computational Intelligence approaches in combinations with classical machine learning and statistical methods</li>
           <li>IoT-based frameworks for smart solutions</li>
           <li>Quantum Machine Learning</li>
           <li>Big Data Analytics</li>

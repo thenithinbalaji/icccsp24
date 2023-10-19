@@ -7,16 +7,42 @@ import {
   transportCommittee as logisticsCommittee,
   financeCommittee as sponsorCommittee,
   photographyCommittee,
+  editors,
 } from './constants';
 export default function Committee() {
   return (
     <div className="committeeContainer" id="committee">
+      <div>
+        <h2
+          style={{
+            color: '#0765b0',
+            textTransform: 'uppercase',
+          }}
+        >
+          <b>EDITORS</b>
+        </h2>
+        <div style={{ fontSize: '18px', marginTop: '20px' }} className="flex">
+          {editors.map(item => (
+            <div key={item.name}>
+              <div>
+                <p>
+                  <b>{item.name}</b>,{' '}
+                  <span>
+                    {item.title}, {item.description}
+                  </span>
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
 
       <div>
         <h2
           style={{
             color: '#0765b0',
             textTransform: 'uppercase',
+            marginTop: '20px',
           }}
         >
           <b>PROGRAM COMMITTEE</b>
@@ -25,7 +51,12 @@ export default function Committee() {
           {programCommittee.map(item => (
             <div key={item.name}>
               <div>
-                <p><b>{item.name}</b>, <span>{item.title}, {item.description}</span></p>
+                <p>
+                  <b>{item.name}</b>,{' '}
+                  <span>
+                    {item.title}, {item.description}
+                  </span>
+                </p>
               </div>
             </div>
           ))}
@@ -46,7 +77,12 @@ export default function Committee() {
           {advisoryCommittee.map(item => (
             <div key={item.name}>
               <div>
-                <p><b>{item.name}</b>, <span>{item.title}, {item.description}</span></p>
+                <p>
+                  <b>{item.name}</b>,{' '}
+                  <span>
+                    {item.title}, {item.description}
+                  </span>
+                </p>
               </div>
             </div>
           ))}
@@ -79,13 +115,18 @@ export default function Committee() {
             marginTop: '20px',
           }}
         >
-          <b>ORGANIZING COMMITTEE</b>
+          <b>CONVENORS</b>
         </h2>
         <div style={{ fontSize: '18px', marginTop: '20px' }} className="flex">
           {organizingCommittee.map(item => (
             <div key={item.name}>
               <div>
-                <p><b>{item.name}</b>, <span>{item.title}, {item.description}</span></p>
+                <p>
+                  <b>{item.name}</b>,{' '}
+                  <span>
+                    {item.title}, {item.description}
+                  </span>
+                </p>
               </div>
             </div>
           ))}
@@ -233,7 +274,6 @@ export default function Committee() {
           ))}
         </div>
       </div> */}
-
     </div>
   );
 }

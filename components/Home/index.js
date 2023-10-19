@@ -1,7 +1,6 @@
 export default function HomeSection() {
   return (
     <div id="home" className="homeContainer">
-
       <h1 className="event-name">ICCCSP 2024</h1>
 
       <h1>
@@ -15,9 +14,7 @@ export default function HomeSection() {
         <span style={{ fontWeight: 500 }}>Special Focus on</span>
         <br />
         <br />
-        <b style={{ lineHeight: '40px' }}>
-          Smart Solutions for SDG
-        </b>
+        <b style={{ lineHeight: '40px' }}>Smart Solutions towards SDG</b>
       </p>
 
       {/* <div
@@ -64,10 +61,8 @@ export default function HomeSection() {
         <div style={{ fontSize: '24px', textAlign: 'center' }}>
           Department of Information Technology
         </div>{' '}
-        <h1
-          style={{ fontWeight: 800, margin: '5px 0 5px 0', fontSize: '30' }}
-        >
-          SSN College of Engineering
+        <h1 style={{ fontWeight: 800, margin: '5px 0 5px 0', fontSize: '30' }}>
+          Sri Sivasubramaniya Nadar College of Engineering
         </h1>{' '}
         <div style={{ fontSize: '15px', textAlign: 'center' }}>
           Rajiv Gandhi Salai, Kalavakkam - 603 110{' '}
@@ -76,7 +71,6 @@ export default function HomeSection() {
           {' '}
           Chennai, Tamilnadu, India.
         </div>
-
       </div>
 
       {/* <div className="home-img">
@@ -110,7 +104,6 @@ export default function HomeSection() {
         <button>Schedule</button>
         <button>Pre-Conference Workshop and Registration</button>
       </div> */}
-
     </div>
   );
 }
