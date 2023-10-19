@@ -8,7 +8,7 @@ const items = [
     date: ['December', ' 15,', ' 2023'],
     event: 'Acceptance Notification Starts',
   },
-  { date: ['January', ' 7,', ' 2023'], event: 'Acceptance Notification Ends' },
+  { date: ['January', ' 7,', ' 2024'], event: 'Acceptance Notification Ends' },
   { date: ['January', ' 25,', ' 2024'], event: 'Registration closes on' },
   {
     date: ['February', ' 15,', ' 2024'],

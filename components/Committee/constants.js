@@ -6,19 +6,19 @@ export const advisoryCommittee = [
     image: 'https://annamalaiuniversity.ac.in/assets/staff_photos/03277.jpg',
   },
   {
-    name: 'Sobha L',
+    name: 'Dr. Sobha L',
     title: 'Researcher, Computational Linguistics Research Group',
     description: 'AU-KBC Research Centre, MIT Campus, Anna University Chennai, India',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYauHfqofMn7KTqlpN0SgQIBvBDAMxEYqexi_COX8UgIvmKA8myFhVuqJZ1mGBrJhh97E&usqp=CAU',
   },
   {
-    name: 'Balaraman Ravindran',
+    name: 'Dr. Balaraman Ravindran',
     title: 'Professor, Dept. of Computer Science and Engineering',
     description: 'IIT Madras, India',
     image: 'https://icccsp.com/img/Dr.Ravindran.jpeg',
   },
   {
-    name: 'Prahlad Vadakkepat ',
+    name: 'Dr. Prahlad Vadakkepat ',
     title: 'Associate Professor, Dept. of Electrical and Computer Engineering',
     description: 'National University of Singapore, Singapore',
     image: 'https://icccsp.com/img/Dr.Prahlad.jpeg',
@@ -27,13 +27,13 @@ export const advisoryCommittee = [
 
 export const programCommittee = [
   {
-    name: 'Eunika Mercier-Laurent',
+    name: 'Dr. Eunika Mercier-Laurent',
     title: 'Professor and Chair IFIP TC12(AI), Dept. of Infomatics',
     description: 'University of Reims Champagne-Ardenne, France',
     image: 'https://icccsp.com/img/eunika.jpeg',
   },
   {
-    name: 'Xavier Fernando, PhD, P. Eng.',
+    name: 'Dr. Xavier Fernando, PhD, P. Eng.',
     title: 'Professor, Toronto Metropolitan University',
     description: 'Director, TMU Intelligent Communication and Computing Lab, Toronto, Canada',
     image: 'https://icccsp.com/img/xavier.png',
@@ -45,7 +45,7 @@ export const programCommittee = [
     image: 'https://pureportal.coventry.ac.uk/files-asset/79465/photo.jpeg?w=160&f=webp',
   },
   {
-    name: 'Xiao-Zhi Gao',
+    name: 'Dr. Xiao-Zhi Gao',
     title: 'Professor',
     description: 'Faculty of Natural Sciences, Forestry and Technology, Department of Computer Science, Finland',
     image: 'https://uefconnect.uef.fi/wp-content/uploads/2021/02/90341a81310dde86c67fbe6af4835a6d_profile_file.jpg',
