@@ -3,7 +3,7 @@ const items = [
     date: ['September', ' 15,', ' 2023'],
     event: 'Paper Submission Opens from',
   },
-  { date: ['November', ' 20,', ' 2023'], event: 'Paper Submission Deadline' },
+  { date: ['November', ' 30,', ' 2023'], event: 'Paper Submission Deadline' },
   {
     date: ['December', ' 15,', ' 2023'],
     event: 'Acceptance Notification Starts',
@@ -21,7 +21,7 @@ const items = [
 const StrikedOutDate = ({ date }) => {
   return (
     <span>
-      <s>
+      <s style={{ textDecorationColor: 'red' }}>
         {date[0]}
         <sup>{date[1]}</sup>
         {date[2]}
@@ -48,15 +48,12 @@ export default function ImportantDates() {
             <tr key={item.event}>
               <td>{item.event}</td>
               <td>
-                {/* {idx === 1 && (
+                {idx === 1 && (
                   <>
-                    <StrikedOutDate date={[10, 'th', 'Sept']} />
-                    <StrikedOutDate date={[10, 'th', 'Oct']} />
-                    <StrikedOutDate date={[21, 'th', 'Oct']} />
-                    <StrikedOutDate date={[10, 'th', 'Nov']} />
+                    <StrikedOutDate date={['November 20, 2023']} />
                   </>
                 )}
-                {idx === 2 && (
+                {/* {idx === 2 && (
                   <>
                     <StrikedOutDate date={[15, 'th', 'Oct']} />
                     <StrikedOutDate date={[30, 'th', 'Oct']} />
