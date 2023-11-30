@@ -3,7 +3,7 @@ const items = [
     date: ['September', ' 15,', ' 2023'],
     event: 'Paper Submission Opens from',
   },
-  { date: ['November', ' 30,', ' 2023'], event: 'Paper Submission Deadline' },
+  { date: ['December', ' 10,', ' 2023'], event: 'Paper Submission Deadline' },
   {
     date: ['December', ' 15,', ' 2023'],
     event: 'Acceptance Notification Starts',
