@@ -50,7 +50,7 @@ export default function ImportantDates() {
               <td>
                 {idx === 1 && (
                   <>
-                    <StrikedOutDate date={['November 20, 2023']} />
+                    <StrikedOutDate date={['November 30, 2023']} />
                   </>
                 )}
                 {/* {idx === 2 && (
