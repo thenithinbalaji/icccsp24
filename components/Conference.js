@@ -37,7 +37,7 @@ export default function Conference() {
                 {' '}
                 (Approved)
               </span> */}
-              Approval Awaited
+              Approved
             </h2>
           </div>
 

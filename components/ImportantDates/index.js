@@ -3,7 +3,7 @@ const items = [
     date: ['September', ' 15,', ' 2023'],
     event: 'Paper Submission Opens from',
   },
-  { date: ['December', ' 10,', ' 2023'], event: 'Paper Submission Deadline' },
+  { date: ['December', ' 31,', ' 2023'], event: 'Paper Submission Deadline' },
   {
     date: ['December', ' 15,', ' 2023'],
     event: 'Acceptance Notification Starts',
@@ -50,7 +50,7 @@ export default function ImportantDates() {
               <td>
                 {idx === 1 && (
                   <>
-                    <StrikedOutDate date={['November 30, 2023']} />
+                    <StrikedOutDate date={['December 10, 2023']} />
                   </>
                 )}
                 {/* {idx === 2 && (
