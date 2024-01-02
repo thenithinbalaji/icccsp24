@@ -3,15 +3,15 @@ const items = [
     date: ['September', ' 15,', ' 2023'],
     event: 'Paper Submission Opens from',
   },
-  { date: ['December', ' 31,', ' 2023'], event: 'Paper Submission Deadline' },
+  { date: ['January', ' 10,', ' 2024'], event: 'Paper Submission Deadline' },
   {
-    date: ['December', ' 15,', ' 2023'],
+    date: ['January', ' 18,', ' 2024'],
     event: 'Acceptance Notification Starts',
   },
-  { date: ['January', ' 7,', ' 2024'], event: 'Acceptance Notification Ends' },
-  { date: ['January', ' 25,', ' 2024'], event: 'Registration closes on' },
+  { date: ['January', ' 31,', ' 2024'], event: 'Acceptance Notification Ends' },
+  { date: ['February', ' 15,', ' 2024'], event: 'Registration closes on' },
   {
-    date: ['February', ' 15,', ' 2024'],
+    date: ['February', ' 20,', ' 2024'],
     event: 'Deadline for Submission of Revised Paper',
   },
   { date: ['March', ' 20,', ' 2024'], event: 'Pre-Conference Workshop' },
@@ -50,7 +50,7 @@ export default function ImportantDates() {
               <td>
                 {idx === 1 && (
                   <>
-                    <StrikedOutDate date={['December 10, 2023']} />
+                    <StrikedOutDate date={['December 31, 2023']} />
                   </>
                 )}
                 {/* {idx === 2 && (
