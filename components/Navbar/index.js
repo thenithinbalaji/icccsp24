@@ -40,10 +40,7 @@ export default function NavBar() {
             <Nav>
               {LINKS.map(link => (
                 <Link href={'#' + link.href} key={link.href} passHref>
-                  <Nav.Link
-                    className={`${changeNavColor ? 'navChange' : ''}`}
-                    style={{ color: link.name === 'Registration' ? 'red' : '' }}
-                  >
+                  <Nav.Link className={`${changeNavColor ? 'navChange' : ''}`}>
                     {link.name}
                   </Nav.Link>
                 </Link>
