@@ -2,8 +2,8 @@ const items = [
   { date: ['Rs 6500', 'Rs 6000'], event: 'Student / Scholar' },
   { date: ['Rs 7500', 'Rs 7000'], event: 'Faculty / Academician' },
   { date: ['Rs 8500', 'Rs 8000'], event: 'Industry' },
-  { date: ['', '$100'], event: 'Foreign ' },
-  { date: ['', 'Rs 500 / head'], event: 'Pre-Conference Workshop' },
+  { date: ['$100'], event: 'Foreign ' },
+  { date: ['Rs 500 / head'], event: 'Pre-Conference Workshop' },
 ];
 
 export default function Registration() {
