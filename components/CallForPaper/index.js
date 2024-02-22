@@ -1,4 +1,4 @@
-import { PAPERS } from './constants';
+// import { PAPERS } from './constants';
 
 export default function CallForPaper() {
   return (
