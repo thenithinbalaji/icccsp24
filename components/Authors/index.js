@@ -5,7 +5,7 @@ export default function Authors() {
         <b>GUIDELINES</b>
       </h1>
 
-      <div id="paperguidelines"></div>
+      <div id="paperguidelines" />
       <br />
 
       <h3>Paper Submission Guidelines</h3>
@@ -110,7 +110,7 @@ export default function Authors() {
         </ul>
       </p>
 
-      <div id="posterguidelines"></div>
+      <div id="posterguidelines" />
       <br />
       <br />
 
