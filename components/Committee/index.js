@@ -8,10 +8,13 @@ import {
   financeCommittee as sponsorCommittee,
   photographyCommittee,
   editors,
+  posterCommittee
 } from './constants';
+
 export default function Committee() {
   return (
     <div className="committeeContainer" id="committee">
+
       <div>
         <h2
           style={{
@@ -119,6 +122,32 @@ export default function Committee() {
         </h2>
         <div style={{ fontSize: '18px', marginTop: '20px' }} className="flex">
           {organizingCommittee.map(item => (
+            <div key={item.name}>
+              <div>
+                <p>
+                  <b>{item.name}</b>,{' '}
+                  <span>
+                    {item.title}, {item.description}
+                  </span>
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <h2
+          style={{
+            color: '#0765b0',
+            textTransform: 'uppercase',
+            marginTop: '20px',
+          }}
+        >
+          <b>POSTER SESSION CHAIRS</b>
+        </h2>
+        <div style={{ fontSize: '18px', marginTop: '20px' }} className="flex">
+          {posterCommittee.map(item => (
             <div key={item.name}>
               <div>
                 <p>
