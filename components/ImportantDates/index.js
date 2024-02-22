@@ -70,7 +70,7 @@ export default function ImportantDates() {
                 */}
 
                 {idx === 5 && (
-                  <span id="posterimportantdates"></span>
+                  <span id="posterimportantdates" />
                 )}
 
                 {/* <p className={[1, 2, 3, 5].includes(idx) ? 'red-text' : ''}> */}

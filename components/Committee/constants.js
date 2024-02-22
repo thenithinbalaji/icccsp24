@@ -173,11 +173,11 @@ export const posterCommittee = [
     image: 'https://www.ssn.edu.in/wp-content/uploads/2020/04/Dr.-I.-Joe-Louis-Paul.jpg',
   },
   {
-    name: "Josephine Julina JK",
+    name: 'Josephine Julina JK',
     title: 'Assistant Professor, Dept. of Information Technology',
     description: 'Sri Sivasubramaniya Nadar College of Engineering, Chennai, India',
     image: 'https://www.ssn.edu.in/wp-content/uploads/2020/04/Dr.-J.-K.-Josephine-Julina-IT.jpg',
-  }
+  },
 ];
 
 export const financeCommittee = [];

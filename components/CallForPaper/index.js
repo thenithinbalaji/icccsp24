@@ -43,8 +43,8 @@ export default function CallForPaper() {
 
       <br />
 
-      <p><a href="#paperguidelines" style={{ color: "white", fontSize: "1.17em", fontWeight: "bold" }}>Paper Submission Guidelines</a></p>
-      <p><a href="#important_dates" style={{ color: "white", fontSize: "1.17em", fontWeight: "bold" }}>Important Dates</a></p>
+      <p><a href="#paperguidelines" style={{ color: 'white', fontSize: '1.17em', fontWeight: 'bold' }}>Paper Submission Guidelines</a></p>
+      <p><a href="#important_dates" style={{ color: 'white', fontSize: '1.17em', fontWeight: 'bold' }}>Important Dates</a></p>
       {/* <div className="papersList-wrapper">
         {PAPERS.map(paper => (
           <div className="paperList" key={paper.title}>

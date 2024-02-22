@@ -8,7 +8,7 @@ import {
   financeCommittee as sponsorCommittee,
   photographyCommittee,
   editors,
-  posterCommittee
+  posterCommittee,
 } from './constants';
 
 export default function Committee() {

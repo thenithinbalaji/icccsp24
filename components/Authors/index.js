@@ -126,7 +126,7 @@ export default function Authors() {
       <br />
 
       <p>
-        <b>For proposal submissions,</b> please mail to <a href="mailto:Posters-ICCCSP24@it.ssn.edu.in">Posters-ICCCSP24@it.ssn.edu.in</a> and add <b>"ICCCSP 2024 Conference: Call for Proposals for Poster"</b> in the SUBJECT line.
+        <b>For proposal submissions,</b> please mail to <a href="mailto:Posters-ICCCSP24@it.ssn.edu.in">Posters-ICCCSP24@it.ssn.edu.in</a> and add <b>&#34;ICCCSP 2024 Conference: Call for Proposals for Poster&#34;</b> in the SUBJECT line.
       </p>
 
       <br />

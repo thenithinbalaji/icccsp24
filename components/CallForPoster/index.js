@@ -13,7 +13,7 @@ export default function CallForPoster() {
                 We are delighted to invite you to submit your abstracts for poster presentations at the
                 ICCCSP 2024.
                 <br />
-                This year&#39;s theme, <b>'Smart Solutions towards SDG'</b>, underscores the importance of
+                This year&#39;s theme, <b>&#39;Smart Solutions towards SDG&#39;</b>, underscores the importance of
                 embracing advancements in technology, data analytics, and interconnected systems to
                 tackle complex global challenges effectively. It emphasizes the need for solutions that are
                 not only technologically advanced but also socially inclusive, economically viable, and environmentally sustainable.
