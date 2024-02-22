@@ -3,11 +3,11 @@ export default function CallForPoster() {
         <div className="callForPosterContainer" id="callforposter">
             <div>
                 <h1>
-                    <b>CALL FOR POSTER</b>
+                    <b>CALL FOR POSTERS</b>
                 </h1>
             </div>
 
-            <h3>Poster Presentation abstracts are invited for the 8th International Conference ICCCSP 2024</h3>
+            <h3>Poster Presentation abstracts are invited for the 8<sup>th</sup> International Conference ICCCSP 2024</h3>
 
             <p style={{ textAlign: 'left' }}>
                 We are delighted to invite you to submit your abstracts for poster presentations at the
@@ -20,7 +20,7 @@ export default function CallForPoster() {
             </p>
 
             <h5>
-                Poster topics can be chosen from any of the <a href="https://www.gavi.org/our-alliance/global-health-development/sustainable-development-goals">17 Sustainable Development Goals.</a> Submissions are not limited to the examples given below:
+                Poster topics can be chosen from any of the <a href="https://www.gavi.org/our-alliance/global-health-development/sustainable-development-goals" target="_blank" rel="noreferrer">17 Sustainable Development Goals.</a> Submissions are not limited to the examples given below:
             </h5>
 
             <br />
