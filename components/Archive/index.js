@@ -42,7 +42,7 @@ const items = [
 export default function Archive() {
   return (
     <div className="archiveContainer" id="archive">
-      <h1 className="text-center">PREVIOUS CONFERENCES</h1>
+      <h1 className="text-center"><b>PREVIOUS CONFERENCES</b></h1>
       <Chrono
         items={items}
         mode="VERTICAL_ALTERNATING"
