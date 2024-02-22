@@ -48,11 +48,11 @@ export default function ImportantDates() {
             <tr key={item.event}>
               <td>{item.event}</td>
               <td>
-                {idx === 1 && (
+                {/* {idx === 1 && (
                   <>
                     <StrikedOutDate date={['December 31, 2023']} />
                   </>
-                )}
+                )} */}
                 {/* {idx === 2 && (
                   <>
                     <StrikedOutDate date={[15, 'th', 'Oct']} />
