@@ -9,17 +9,16 @@ const items = [
 export default function Registration() {
   return (
     <div className="registrationContainer" id="registration">
-      <div id="Registration Details" className="importantDatesContainer">
-        <h1 className="text-center">
-          <b>REGISTRATION DETAILS</b>
-        </h1>
-        {/* <h5 className="text-center" style={{ color: 'red' }}>
-          (Registrations Yet to be Opened)
-        </h5> */}
-        <p className="text-center">
-          At least one author of each accepted paper must register for the
-          conference and present the paper.
-        </p>
+      <h1 className="text-center">
+        <b>REGISTRATION DETAILS</b>
+      </h1>
+
+      <p className="text-center">
+        At least one author of each accepted paper must register for the
+        conference and present the paper.
+      </p>
+
+      <div className="registrationDatesContainer">
         <table>
           <tbody>
             <tr>
@@ -45,6 +44,6 @@ export default function Registration() {
 
         <p className="text-center">* No TA and DA will be provided</p>
       </div>
-    </div>
+    </div >
   );
 }
