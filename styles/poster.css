@@ -1,0 +1,9 @@
+.callForPosterContainer {
+    background-color: white;
+    color: black;
+    padding: 32px 5%;
+}
+
+.callForPosterContainer h1 {
+    text-align: center;
+}

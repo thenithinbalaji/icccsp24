@@ -2,12 +2,13 @@ export default function Authors() {
   return (
     <div className="authorsContainer" id="authors">
       <h1>
-        <b>FOR AUTHORS</b>
+        <b>GUIDELINES</b>
       </h1>
 
+      <div id="paperguidelines"></div>
       <br />
 
-      <h3>Paper Submission and Guidelines</h3>
+      <h3>Paper Submission Guidelines</h3>
 
       <p>
         Authors can contribute regular paper with scientific / technical
@@ -26,8 +27,8 @@ export default function Authors() {
       <br />
 
       <p>
-        On submissions, file name should include the SDG number from the
-        following list (such as SGD 1.doc). However, contributions towards
+        <b>On submissions, file name should include the SDG number from the
+          following list (such as SGD 1.doc).</b> However, contributions towards
         achieving any other SDGs using ML & AI also may be submitted.
         <ul style={{ paddingTop: '10px' }}>
           <li>SDG No. 3 - Good Health & Well Being</li>
@@ -90,6 +91,62 @@ export default function Authors() {
       <p style={{ fontWeight: 600 }}>
         At least one author of each accepted paper must register for the
         conference and present the paper.
+      </p>
+
+      <br />
+      <p>
+        For any inquiries, please contact -
+        <br />
+        <ul>
+          <li>
+            Dr. S. Mohanavalli - +91 98403 04135
+          </li>
+          <li>
+            Dr. N. Sripriya - +91 98405 06522
+          </li>
+          <li>
+            Dr. J. Sofia Jennifer - +91 77087 33053
+          </li>
+        </ul>
+      </p>
+
+      <div id="posterguidelines"></div>
+      <br />
+      <br />
+
+      <h3>Poster Submission Guidelines</h3>
+
+      <p>
+        Please ensure that your abstract adheres to the specified criteria for acceptance,
+        focusing on relevance, clarity, appropriate methods, and nonpromotional content. All
+        accepted posters will be displayed during the poster session of the conference
+        ICCCSP 2024.
+      </p>
+
+      <br />
+
+      <p>
+        <b>For proposal submissions,</b> please mail to <a href="mailto:Posters-ICCCSP24@it.ssn.edu.in">Posters-ICCCSP24@it.ssn.edu.in</a> and add <b>"ICCCSP 2024 Conference: Call for Proposals for Poster"</b> in the SUBJECT line.
+      </p>
+
+      <br />
+
+      <p>
+        For any inquiries, please contact the Poster Chairs -
+        <br />
+        <ul>
+          <li>
+            Dr. I. Joe Louis Paul - +91 98415 14138 - <a href="mailto:joelouisi@ssn.edu.in">joelouisi@ssn.edu.in</a>
+          </li>
+          <li>
+            Dr. J. K. Josephine Julina - +91 99625 80503 - <a href="mailto:josephinejulinajk@ssn.edu.in">josephinejulinajk@ssn.edu.in</a>
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        We look forward to your innovative contributions that will shape the future of clinical
+        research and patient care.
       </p>
     </div>
   );

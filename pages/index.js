@@ -14,6 +14,7 @@ import ImportantDates from '../components/ImportantDates';
 import Contact from '../components/Contact';
 import Workshop from '../components/Workshop';
 import PaymentDetails from '../components/PaymentDetails';
+import CallForPoster from '../components/CallForPoster';
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <HomeSection />
       <Conference />
       <CallForPaper />
+      <CallForPoster />
       <ImportantDates />
       <Submission />
       <Authors />

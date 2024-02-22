@@ -6,14 +6,20 @@ const items = [
   { date: ['January', ' 25,', ' 2024'], event: 'Paper Submission Deadline' },
   {
     date: ['February', ' 1,', ' 2024'],
-    event: 'Acceptance Notification Starts',
+    event: 'Paper Acceptance Notification Starts',
   },
-  { date: ['February', ' 15,', ' 2024'], event: 'Acceptance Notification Ends' },
-  { date: ['February', ' 25,', ' 2024'], event: 'Registration closes on' },
+  { date: ['February', ' 15,', ' 2024'], event: 'Paper Acceptance Notification Ends' },
+  { date: ['February', ' 25,', ' 2024'], event: 'Paper Registration closes on' },
   {
     date: ['March', ' 1,', ' 2024'],
     event: 'Deadline for Submission of Revised Paper (Final)',
   },
+  {
+    date: ['March', ' 6,', ' 2024'],
+    event: 'Deadline for Submission of Poster',
+  },
+  { date: ['March', ' 10,', ' 2024'], event: 'Poster Acceptance Notification' },
+  { date: ['March', ' 14,', ' 2024'], event: 'Final Poster Submission (e-version)' },
   { date: ['March', ' 20,', ' 2024'], event: 'Pre-Conference Workshop' },
   { date: ['March', ' 21 - 22,', ' 2024'], event: 'Conference' },
 ];
@@ -48,11 +54,7 @@ export default function ImportantDates() {
             <tr key={item.event}>
               <td>{item.event}</td>
               <td>
-                {/* {idx === 1 && (
-                  <>
-                    <StrikedOutDate date={['December 31, 2023']} />
-                  </>
-                )} */}
+
                 {/* {idx === 2 && (
                   <>
                     <StrikedOutDate date={[15, 'th', 'Oct']} />
@@ -65,20 +67,37 @@ export default function ImportantDates() {
                     <StrikedOutDate date={[30, 'th', 'Nov']} />
                   </>
                 )}
+                */}
+
                 {idx === 5 && (
-                  <StrikedOutDate date={[30, 'th', 'Nov']} />
-                )} */}
+                  <span id="posterimportantdates"></span>
+                )}
+
                 {/* <p className={[1, 2, 3, 5].includes(idx) ? 'red-text' : ''}> */}
                 <p className={[1, 2, 3, 5].includes(idx) ? '' : ''}>
                   {item.date[0]}
                   {item.date[1]}
                   {item.date[2]}
                 </p>
-                {/* {idx === 3 && (
+
+                {idx === 6 && (
                   <span style={{ color: 'red' }} className="animate__animated animate__flash animate__slower animate__infinite">
-                    Early bird Registration Closed
+                    Poster Submission
                   </span>
-                )} */}
+                )}
+
+                {idx === 7 && (
+                  <span style={{ color: 'red' }} className="animate__animated animate__flash animate__slower animate__infinite">
+                    Poster Submission
+                  </span>
+                )}
+
+                {idx === 8 && (
+                  <span style={{ color: 'red' }} className="animate__animated animate__flash animate__slower animate__infinite">
+                    Poster Submission
+                  </span>
+                )}
+
               </td>
             </tr>
           ))}
