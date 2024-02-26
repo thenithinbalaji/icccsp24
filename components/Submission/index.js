@@ -11,15 +11,15 @@ export default function Submission() {
 
       {/* <p><b>Download ICCCSP 2024 Conference Brochure - </b><a href="/Brochure.pdf">Click Here</a></p> */}
 
-      <p>
-        <b>Articles can be submitted via Microsoft CMT - </b>
+      <h5>
+        <b>Articles can be submitted via Microsoft CMT: </b>
         <a
           href="https://cmt3.research.microsoft.com/ICCCSP2024"
-          style={{ wordWrap: 'break-word' }}
+          style={{ wordWrap: 'break-word' }} target="_blank" rel="noreferrer"
         >
           https://cmt3.research.microsoft.com/ICCCSP2024
         </a>
-      </p>
+      </h5>
     </div>
   );
 }
