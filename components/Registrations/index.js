@@ -67,9 +67,7 @@ export default function Registration() {
       </h5>
 
       <h5>
-        <b>Poster Registration Form:</b> <a href="https://forms.gle/cZWp2mVq5ViCKDfT9" target="_blank" rel="noreferrer" style={{ overflowWrap: 'break-word' }}>
-          https://forms.gle/cZWp2mVq5ViCKDfT9
-        </a>
+        <b>Poster Registration Form:</b> Yet to be Opened!
       </h5>
 
       <h5>
