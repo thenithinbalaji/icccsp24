@@ -1,9 +1,10 @@
 const items = [
-  { date: ['Rs 6500', 'Rs 6000'], event: 'Student / Scholar' },
-  { date: ['Rs 7500', 'Rs 7000'], event: 'Faculty / Academician' },
-  { date: ['Rs 8500', 'Rs 8000'], event: 'Industry' },
+  { date: ['Rs 6500'], event: 'Student / Scholar' },
+  { date: ['Rs 7500'], event: 'Faculty / Academician' },
+  { date: ['Rs 8500'], event: 'Industry' },
   { date: ['$100'], event: 'Foreign ' },
   { date: ['Rs 500 / head'], event: 'Pre-Conference Workshop' },
+  { date: ['Rs 300 / head'], event: 'Poster Presentation' },
 ];
 
 export default function Registration() {
@@ -24,17 +25,17 @@ export default function Registration() {
             <tr>
               <th>Participants</th>
               <th>Registration Fees</th>
-              <th>Early Bird Registration</th>
+              {/* <th>Early Bird Registration</th> */}
             </tr>
             {items.map(item => (
               <tr key={item.event}>
                 <td>{item.event}</td>
                 <td>{item.date[0]}</td>
-                <td>{item.date[1]}</td>
+                {/* <td>{item.date[1]}</td> */}
               </tr>
             ))}
             <tr>
-              <td colSpan="3">
+              <td colSpan="2">
                 10% discount on registeration fees for IFIP members, IFIP TC
                 members and IFIP working group
               </td>
@@ -43,6 +44,31 @@ export default function Registration() {
         </table>
 
         <p className="text-center">* No TA and DA will be provided</p>
+
+        <br />
+
+        <h5>
+          <b>Registration Fee Payment link:</b> <a href="https://rzp.io/l/ICCCSP-2024" target="_blank">https://rzp.io/l/ICCCSP-2024</a>
+        </h5>
+
+        <p>
+          The above link is common to all participants of ICCCSP 2024 - Author of Paper, Participants of Pre-Conference Workshops, Participants of Poster Presentation. Participants should choose appropriate event and category for making the payment of registration fee as mentioned in the above table. Proof of payment should be saved to upload in the registration form.
+
+          Registration forms for conference papers, workshops and poster session are provided separately in the following links. Participants are requested to fill in the appropriate forms to complete the registration process.
+        </p>
+
+        <h5>
+          <b>Paper Registration Form:</b> <a href="https://forms.gle/YfodreowTt3mNVeJ9" target="_blank">https://forms.gle/YfodreowTt3mNVeJ9</a>
+        </h5>
+
+        <h5>
+          <b>Poster Registration Form:</b> Yet to be Opened!
+        </h5>
+
+        <h5>
+          <b>Pre-Conference Workshops Registration Form:</b> Yet to be Opened!
+        </h5>
+
       </div>
     </div >
   );
