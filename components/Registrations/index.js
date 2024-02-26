@@ -44,32 +44,36 @@ export default function Registration() {
         </table>
 
         <p className="text-center">* No TA and DA will be provided</p>
-
-        <br />
-
-        <h5>
-          <b>Registration Fee Payment link:</b> <a href="https://rzp.io/l/ICCCSP-2024" target="_blank">https://rzp.io/l/ICCCSP-2024</a>
-        </h5>
-
-        <p>
-          The above link is common to all participants of ICCCSP 2024 - Author of Paper, Participants of Pre-Conference Workshops, Participants of Poster Presentation. Participants should choose appropriate event and category for making the payment of registration fee as mentioned in the above table. Proof of payment should be saved to upload in the registration form.
-
-          Registration forms for conference papers, workshops and poster session are provided separately in the following links. Participants are requested to fill in the appropriate forms to complete the registration process.
-        </p>
-
-        <h5>
-          <b>Paper Registration Form:</b> <a href="https://forms.gle/YfodreowTt3mNVeJ9" target="_blank">https://forms.gle/YfodreowTt3mNVeJ9</a>
-        </h5>
-
-        <h5>
-          <b>Poster Registration Form:</b> Yet to be Opened!
-        </h5>
-
-        <h5>
-          <b>Pre-Conference Workshops Registration Form:</b> Yet to be Opened!
-        </h5>
-
       </div>
+
+      <br />
+
+      <h5>
+        <b>Registration Fee Payment link:</b> <a href="https://rzp.io/l/ICCCSP-2024" target="_blank" rel="noreferrer" style={{ overflowWrap: 'break-word' }}>
+          https://rzp.io/l/ICCCSP-2024
+        </a>
+      </h5>
+
+      <p>
+        The above link is common to all participants of ICCCSP 2024 - Author of Paper, Participants of Pre-Conference Workshops, Participants of Poster Presentation. Participants should choose appropriate event and category for making the payment of registration fee as mentioned in the above table. Proof of payment should be saved to upload in the registration form.
+
+        Registration forms for conference papers, workshops and poster session are provided separately in the following links. Participants are requested to fill in the appropriate forms to complete the registration process.
+      </p>
+
+      <h5>
+        <b>Paper Registration Form:</b> <a href="https://forms.gle/YfodreowTt3mNVeJ9" target="_blank" rel="noreferrer" style={{ overflowWrap: 'break-word' }}>
+          https://forms.gle/YfodreowTt3mNVeJ9
+        </a>
+      </h5>
+
+      <h5>
+        <b>Poster Registration Form:</b> Yet to be Opened!
+      </h5>
+
+      <h5>
+        <b>Pre-Conference Workshops Registration Form:</b> Yet to be Opened!
+      </h5>
+
     </div >
   );
 }
