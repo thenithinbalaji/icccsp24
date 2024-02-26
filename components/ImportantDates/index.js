@@ -8,11 +8,11 @@ const items = [
     date: ['February', ' 1,', ' 2024'],
     event: 'Paper Acceptance Notification Starts',
   },
-  { date: ['February', ' 15,', ' 2024'], event: 'Paper Acceptance Notification Ends' },
-  { date: ['February', ' 25,', ' 2024'], event: 'Paper Registration closes on' },
+  { date: ['March', ' 5,', ' 2024'], event: 'Paper Acceptance Notification Ends' },
+  { date: [], event: 'Paper Registration is open for Accepted Papers ' },
   {
     date: ['March', ' 1,', ' 2024'],
-    event: 'Deadline for Submission of Revised Paper (Final)',
+    event: 'Deadline for Submission of Revised Paper',
   },
   {
     date: ['March', ' 6,', ' 2024'],
@@ -52,8 +52,17 @@ export default function ImportantDates() {
 
           {items.map((item, idx) => (
             <tr key={item.event}>
-              <td>{item.event}</td>
+              <td style={{ color: idx === 4 ? 'blue' : 'inherit' }}>
+                {item.event}
+              </td>
+
               <td>
+
+                <p>
+                  {item.date[0]}
+                  {item.date[1]}
+                  {item.date[2]}
+                </p>
 
                 {/* {idx === 2 && (
                   <>
@@ -61,24 +70,17 @@ export default function ImportantDates() {
                     <StrikedOutDate date={[30, 'th', 'Oct']} />
                   </>
                 )}
-                {idx === 3 && (
-                  <>
-                    <StrikedOutDate date={[15, 'th', 'Nov']} />
-                    <StrikedOutDate date={[30, 'th', 'Nov']} />
-                  </>
-                )}
                 */}
+
+                {idx === 1 && (
+                  <span style={{ color: 'red' }}>
+                    Closed
+                  </span>
+                )}
 
                 {idx === 5 && (
                   <span id="posterimportantdates" />
                 )}
-
-                {/* <p className={[1, 2, 3, 5].includes(idx) ? 'red-text' : ''}> */}
-                <p className={[1, 2, 3, 5].includes(idx) ? '' : ''}>
-                  {item.date[0]}
-                  {item.date[1]}
-                  {item.date[2]}
-                </p>
 
                 {idx === 6 && (
                   <span style={{ color: 'red' }} className="animate__animated animate__flash animate__slower animate__infinite">
