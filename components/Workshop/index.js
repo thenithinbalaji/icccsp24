@@ -7,11 +7,16 @@ export default function Workshop() {
       <h1 className="text-center">
         <b>PRE-CONFERENCE WORKSHOP</b>
       </h1>
+
+      <div style={{ textAlign: 'center' }}>
+        <b>Workshop Coordinator:</b> Dr. E. M. Malathy, Associate Professor, IT (<a href="mailto:malathyem@ssn.edu.in">malathyem@ssn.edu.in</a>)
+      </div>
+
       <div className="workshopGrid">
 
         <div>
 
-          <h3>Workshop on Advances in Image Processing</h3>
+          <h3>1. Advances in Image Processing</h3>
           <p>
             Biometric technology has been in use for several decades now and has proven to be
             a reliable and secure method of identity authentication. However, it is also a field that
@@ -112,7 +117,7 @@ export default function Workshop() {
         </div>
 
         <div>
-          <h3>Immersive Technology (AR, VR, MR, XR)</h3>
+          <h3>2. Immersive Technology (AR, VR, MR, XR)</h3>
           <p>
             The workshop on Immersive Technologies
             typically aim to educate participants about the latest advancements and applications of immersive
@@ -126,22 +131,6 @@ export default function Workshop() {
           <p>
             <b>Faculty Coordinators :</b> Dr. Josephinejulina JK, Dr. G. Sornavalli, Dr. Suganya E, SSNCE.
           </p>
-        </div>
-
-        <div>
-          <h3>
-            IoT and Robotic solutions towards SDG
-          </h3>
-          <p>
-            The adoption of IoT and application of robotics in creating technical
-            innovations aimed at attaining SDGs. Skill update on sensor integration, incorporating intelligence and
-            building smart embedded systems.Hands-on session to think, design, develop and implement multi-
-            disciplinary applications in the field of IoT and Robotic automation. Revitalize the research gaps for all the intelligence process of an
-            automation industry for societal impact.
-          </p>
-          <p>
-            <b>Faculty Coordinators:</b> Dr. E.M. malathy, Dr. K.S. Gayathri, Dr. V. Sivamurugan, Dr. S. Anitha, SSNCE
-          </p>
           <h4>Workshop Speakers</h4>
           <div
             style={{
@@ -154,7 +143,7 @@ export default function Workshop() {
           >
             <div>
               <Image
-                src="/WorkshopSpeakers/iot1.png"
+                src="/WorkshopSpeakers/arvr1.png"
                 alt="ai"
                 height={140}
                 width={140}
@@ -168,7 +157,7 @@ export default function Workshop() {
                   fontSize: '14px',
                 }}
               >
-                Dr. C. Arun Prakash
+                Mr. M. Sathiya Sankar
               </div>
               <div
                 style={{
@@ -177,7 +166,62 @@ export default function Workshop() {
                   fontSize: '11px',
                 }}
               >
-                Associate Professor, MIT Anna University
+                Head of Immersive Technologies Wizorld
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3>
+            3. IoT and Robotic solutions towards SDG
+          </h3>
+          <p>
+            The adoption of IoT and application of robotics in creating technical
+            innovations aimed at attaining SDGs. Skill update on sensor integration, incorporating intelligence and
+            building smart embedded systems.Hands-on session to think, design, develop and implement multi-
+            disciplinary applications in the field of IoT and Robotic automation. Revitalize the research gaps for all the intelligence process of an
+            automation industry for societal impact.
+          </p>
+          <p>
+            <b>Faculty Coordinators:</b> Dr. E.M. Malathy, Dr. K.S. Gayathri, Dr. V. Sivamurugan, Dr. S. Anitha, SSNCE
+          </p>
+          <h4>Workshop Speakers</h4>
+          <div
+            style={{
+              display: 'flex',
+              gap: '20px',
+              flexWrap: 'wrap',
+              justifyContent: 'center',
+              marginTop: '20px',
+            }}
+          >
+            <div>
+              <Image
+                src="/WorkshopSpeakers/iot.png"
+                alt="ai"
+                height={140}
+                width={140}
+                style={{ borderRadius: '100%' }}
+              />
+              <div
+                style={{
+                  textAlign: 'center',
+                  fontWeight: 'bold',
+                  color: '#002446',
+                  fontSize: '14px',
+                }}
+              >
+                Dr. G. Satheesh Kumar
+              </div>
+              <div
+                style={{
+                  textAlign: 'center',
+                  color: '#002446',
+                  fontSize: '11px',
+                }}
+              >
+                Associate Professor, SSNCE
               </div>
             </div>
 
@@ -212,7 +256,7 @@ export default function Workshop() {
 
             <div>
               <Image
-                src="/WorkshopSpeakers/iot.png"
+                src="/WorkshopSpeakers/iot1.png"
                 alt="ai"
                 height={140}
                 width={140}
@@ -226,7 +270,7 @@ export default function Workshop() {
                   fontSize: '14px',
                 }}
               >
-                Dr. G. Satheesh Kumar
+                Dr. C. Arun Prakash
               </div>
               <div
                 style={{
@@ -235,7 +279,7 @@ export default function Workshop() {
                   fontSize: '11px',
                 }}
               >
-                Associate Professor, SSNCE
+                Associate Professor, MIT Anna University
               </div>
             </div>
           </div>
@@ -243,7 +287,7 @@ export default function Workshop() {
 
         <div>
           <h3>
-            Explainable AI (XAI)
+            4. Explainable AI (XAI)
           </h3>
           <p>
             Text analysis and Information Extraction &amp; Retrieval (TIER 2024): The Eighth Edition of
@@ -305,7 +349,7 @@ export default function Workshop() {
             in their respective areas.{' '}
           </li>
           <li>
-            The resource persons are foreign delegates, researchers from
+            The resource persons are eminent faculties, researchers from
             renowned institutions and industry professionals.
           </li>
         </ul>
