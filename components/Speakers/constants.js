@@ -1,54 +1,18 @@
 export const SPEAKERS = [
   {
-    image: 'https://icccsp.com/img/Xiaoli_Li.png',
-    name: 'Xiaoli Li',
+    image: 'http://dspace.unimap.edu.my/xmlui/bitstream/id/143263/?sequence=-1',
+    name: 'Professor Ts. Ir. Dr. Wan Khairunizam',
     designation:
-      'Dept. Head (Machine Intellection dept.) Institute for Infocomm Research, A*STAR & Adjunct Professor, School of Computer Science and Engineering',
-    description: 'NTU, Singapore',
-    profile: 'https://personal.ntu.edu.sg/xlli/',
+      'Faculty of Electrical Engineering Technology (FTKE), Brain Machine Interface Research Group',
+    description: 'UNIVERSITI MALAYSIA PERLIS',
+    profile: 'https://scholar.google.com.my/citations?user=TLa4phUAAAAJ&hl=en',
   },
   {
-    image: 'https://icccsp.com/img/Ponnuthurai.png',
-    name: 'Ponnuthurai Nagaratnam Suganthan',
-    designation: 'Research Professor',
-    description:
-      'KINDI Center for Computing Research, Qatar University, Doha, Qatar',
-    profile: 'https://www3.ntu.edu.sg/home/epnsugan/',
-  },
-  {
-    image: 'https://icccsp.com/img/Subhashini.png',
-    name: 'Subhashini Venugopalan',
-    designation: 'Research Scientist',
-    description: 'Google Research, California',
-    profile: 'https://vsubhashini.github.io/',
-  },
-  {
-    image: 'https://icccsp.com/img/kun_chan.jpeg',
-    name: 'Kun-Chan Lan',
+    image: 'https://www.ieeetoronto.ca/wp-content/uploads/2020/06/22281586_10159537726185595_1945439871642124433_n.jpg',
+    name: 'Dr. Fatima Hussain',
     designation:
-      'Professor, Dept. of Computer Science and Information Engineering',
-    description: 'National Cheng Kung University, Taiwan',
-    profile: 'https://www.csie.ncku.edu.tw/~klan/',
-  },
-  {
-    name: 'Vijay John',
-    description: 'RIKEN Institute, Japan',
-    image: 'https://icccsp.com/img/vijay_john.png',
-    designation: 'Research Scientist',
-    profile: '',
-  },
-  {
-    image: 'https://icccsp.com/img/soundari.jpeg',
-    name: 'Soundari Arunachalam',
-    designation: 'Director R&D',
-    description: 'Honeywell Technology Solutions',
-    profile: 'https://www.csie.ncku.edu.tw/~klan/',
-  },
-  {
-    image: '/vikas.jpg',
-    name: 'Vikash Kumar',
-    designation: 'Solution Architect',
-    description: 'EY - GDS India',
-    profile: '',
+      'Adjunct Professor, Toronto Metropolitan University',
+    description: 'Toronto, Canada',
+    profile: 'https://scholar.google.ca/citations?user=87Kzz0wAAAAJ&hl=en',
   },
 ];

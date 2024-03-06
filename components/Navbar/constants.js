@@ -1,7 +1,7 @@
 export const LINKS = [
   // { name: 'Home', href: 'home' },
   { name: 'Conference', href: 'conference' },
-  { name: 'About Us', href: 'about-us' },
+  // { name: 'About Us', href: 'about-us' },
   { name: 'Call for Papers', href: 'callforpaper' },
   { name: 'Call for Posters', href: 'callforposter' },
   { name: 'Important Dates', href: 'important_dates' },
@@ -9,7 +9,7 @@ export const LINKS = [
   { name: 'Committee', href: 'committee' },
   // { name: 'Submission', href: 'submission' },
   { name: 'Pre-conf Workshop', href: 'workshop' },
-  // { name: 'Speakers', href: 'speakers' },
+  { name: 'Speakers', href: 'speakers' },
   { name: 'Registration', href: 'registration' },
   // { name: 'Payment', href: 'payment' },
   { name: 'Contact', href: 'contact' },
