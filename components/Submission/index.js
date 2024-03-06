@@ -1,6 +1,9 @@
 export default function Submission() {
   return (
     <div className="confContainer" id="submission">
+      <h1 className="text-center">
+        <b>SUBMISSION</b>
+      </h1>
       <p>
         We sincerely encourage researchers, practitioners, and students to
         contribute their valuable insights and expertise towards the development

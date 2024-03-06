@@ -11,7 +11,7 @@ export default function Registration() {
   return (
     <div className="registrationContainer" id="registration">
       <h1 className="text-center">
-        <b>REGISTRATION DETAILS</b>
+        <b>REGISTRATION</b>
       </h1>
 
       <p className="text-center">

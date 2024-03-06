@@ -8,10 +8,10 @@ export const LINKS = [
   { name: 'Guidelines', href: 'authors' },
   { name: 'Committee', href: 'committee' },
   // { name: 'Submission', href: 'submission' },
-  // { name: 'Pre-conf Workshop', href: 'workshop' },
+  { name: 'Pre-conf Workshop', href: 'workshop' },
   // { name: 'Speakers', href: 'speakers' },
   { name: 'Registration', href: 'registration' },
   // { name: 'Payment', href: 'payment' },
   { name: 'Contact', href: 'contact' },
-  { name: 'History', href: 'archive' },
+  // { name: 'History', href: 'archive' },
 ];

@@ -11,7 +11,7 @@ export default function Conference() {
         </h1>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <h3 style={{ marginTop: '20px' }} className="animate__animated animate__flash animate__slower animate__infinite">
-            <a href="https://link.springer.com/book/10.1007/978-3-031-39811-7" style={{ color: 'red' }}>ICCCSP 2023 Proceedings</a>
+            <a href="https://link.springer.com/book/10.1007/978-3-031-39811-7" target="_blank" rel="noreferrer" style={{ color: 'red' }}>ICCCSP 2023 Proceedings</a>
           </h3>
         </div>
         <div className="aboutus-row">

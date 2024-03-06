@@ -37,7 +37,7 @@ export default function Home() {
       <Submission />
       <Authors />
       <Committee />
-      {/* <Workshop /> */}
+      <Workshop />
       {/* <Speakers /> */}
       <Registrations />
       {/* <PaymentDetails /> */}

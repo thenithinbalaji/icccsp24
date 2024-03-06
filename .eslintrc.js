@@ -43,7 +43,7 @@ module.exports = {
     'dot-notation': ERROR,
     'eol-last': ERROR,
     eqeqeq: [ERROR, 'allow-null'],
-    'jsx-quotes': [ERROR, 'prefer-double'],
+    'jsx-quotes': OFF,
     'keyword-spacing': [ERROR, { after: true, before: true }],
     'no-inner-declarations': [ERROR, 'functions'],
     'no-multi-spaces': ERROR,
