@@ -1,6 +1,6 @@
 export const SPEAKERS = [
   {
-    image: 'http://dspace.unimap.edu.my/xmlui/bitstream/id/143263/?sequence=-1',
+    image: 'https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TLa4phUAAAAJ&citpid=1',
     name: 'Professor Ts. Ir. Dr. Wan Khairunizam',
     designation:
       'Faculty of Electrical Engineering Technology (FTKE), Brain Machine Interface Research Group',
