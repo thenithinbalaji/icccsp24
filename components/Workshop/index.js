@@ -174,12 +174,12 @@ export default function Workshop() {
 
         <div>
           <h3>
-            3. IoT and Robotic solutions towards SDG
+            3. Hands-on: IoT and Robotic solutions towards SDG
           </h3>
           <p>
             The adoption of IoT and application of robotics in creating technical
             innovations aimed at attaining SDGs. Skill update on sensor integration, incorporating intelligence and
-            building smart embedded systems.Hands-on session to think, design, develop and implement multi-
+            building smart embedded systems. Hands-on session to think, design, develop and implement multi-
             disciplinary applications in the field of IoT and Robotic automation. Revitalize the research gaps for all the intelligence process of an
             automation industry for societal impact.
           </p>
@@ -386,7 +386,7 @@ export default function Workshop() {
         </div>
       </div>
 
-      <div style={{ marginTop: '100px' }}>
+      <div style={{ marginTop: '25px' }}>
         <h2>Workshop Highlights</h2>
         <ul>
           <li>The workshops will be conducted in physical mode.</li>
