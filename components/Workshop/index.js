@@ -315,24 +315,74 @@ export default function Workshop() {
               </a>
             </b>
           </p>
-          {/* <h4>Workshop Speakers</h4>
+          <h4>Workshop Speakers</h4>
           <div
             style={{
+              display: 'flex',
+              gap: '20px',
+              flexWrap: 'wrap',
+              justifyContent: 'center',
               marginTop: '20px',
-              fontSize: '14px',
-              fontWeight: 500,
             }}
           >
-            <p style={{ textAlign: 'center' }}>
-              1. Ms. S. Sangeetha, NIT, Trichy, India
-            </p>
-            <p style={{ textAlign: 'center' }}>
-              2. Mr. M. Selvakumar, Saama Technologies
-            </p>
-            <p style={{ textAlign: 'center' }}>
-              3. Dr. D. Thenmozhi & Dr. N. Sripriya, SSNCE
-            </p>
-          </div> */}
+            <div>
+              <Image
+                src="/WorkshopSpeakers/xai1.png"
+                alt="ai"
+                height={140}
+                width={140}
+                style={{ borderRadius: '100%' }}
+              />
+              <div
+                style={{
+                  textAlign: 'center',
+                  fontWeight: 'bold',
+                  color: '#002446',
+                  fontSize: '14px',
+                }}
+              >
+                Mr. Malaikannan Sankarasubbu
+              </div>
+              <div
+                style={{
+                  textAlign: 'center',
+                  color: '#002446',
+                  fontSize: '11px',
+                }}
+              >
+                Vice President of AI Research, Saama Technologies
+              </div>
+            </div>
+
+            <div>
+              <Image
+                src="/WorkshopSpeakers/xai2.png"
+                alt="ai"
+                height={140}
+                width={140}
+                style={{ borderRadius: '100%' }}
+              />
+              <div
+                style={{
+                  textAlign: 'center',
+                  fontWeight: 'bold',
+                  color: '#002446',
+                  fontSize: '14px',
+                }}
+              >
+                Mr. Anand Kumar M
+              </div>
+              <div
+                style={{
+                  textAlign: 'center',
+                  color: '#002446',
+                  fontSize: '11px',
+                }}
+              >
+                Assistant professor, IT, NITK Surathkal
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
