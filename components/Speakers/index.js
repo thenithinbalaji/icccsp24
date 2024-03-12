@@ -5,7 +5,7 @@ export default function Speakers() {
   return (
     <div className="speakersContainer" id="speakers">
       <h1>
-        <b>INVITED TALKS</b>
+        <b>KEYNOTE SPEAKERS</b>
       </h1>
       <br />
       {/* <div className="talk-sponsors">

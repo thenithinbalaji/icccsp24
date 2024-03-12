@@ -31,16 +31,15 @@ export default function Home() {
       <NavBar />
       <HomeSection />
       <Conference />
+      <Speakers />
+      <Workshop />
       <CallForPaper />
       <CallForPoster />
       <ImportantDates />
       <Submission />
-      <Authors />
-      <Committee />
-      <Workshop />
-      <Speakers />
       <Registrations />
-      {/* <PaymentDetails /> */}
+      <Committee />
+      <Authors />
       <Contact />
       <Archive />
       <Footer />
