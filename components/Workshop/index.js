@@ -46,7 +46,7 @@ export default function Workshop() {
           <p>
             <b>Faculty Coordinators :</b> Dr. N. Radha , Dr. R. Swathika Dr. A. Sandana Karuppan, SSNCE.
           </p>
-          <h4>Workshop Speakers</h4>
+          <h4>Workshop Speaker</h4>
           <div
             style={{
               display: 'flex',
@@ -85,7 +85,7 @@ export default function Workshop() {
               </div>
             </div>
 
-            <div>
+            {/* <div>
               <Image
                 src="/WorkshopSpeakers/imgspeaker2.png"
                 alt="ai"
@@ -112,7 +112,7 @@ export default function Workshop() {
               >
                 Anna University, Chennai
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
