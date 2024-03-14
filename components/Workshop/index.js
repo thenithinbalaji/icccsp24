@@ -328,10 +328,10 @@ export default function Workshop() {
             diverse options for implementing XAI techniques in text analytics.
           </p>
           <p>
-            <b>Faculty Coordinators:</b> Dr. C. Aravindan, Dr. B. Senthilkumar,
-            Dr.N. Sripriya, SSNCE
+            <b>Faculty Coordinators:</b> Dr. C. Aravindan, Dr. N. Sripriya, Mr.
+            B. Senthilkumar, SSNCE
           </p>
-          <p>
+          {/* <p>
             <b>
               Workshop Website:{' '}
               <a
@@ -343,7 +343,7 @@ export default function Workshop() {
                 TIER-2024
               </a>
             </b>
-          </p>
+          </p> */}
           <h4>Workshop Speakers</h4>
           <div
             style={{
@@ -408,7 +408,63 @@ export default function Workshop() {
                   fontSize: '11px',
                 }}
               >
-                Assistant professor, IT, NITK Surathkal
+                Assistant Professor, IT, NITK Surathkal
+              </div>
+            </div>
+            <div>
+              <Image
+                src="/WorkshopSpeakers/xai3.jpeg"
+                alt="ai"
+                height={140}
+                width={140}
+                style={{ borderRadius: '100%' }}
+              />
+              <div
+                style={{
+                  textAlign: 'center',
+                  fontWeight: 'bold',
+                  color: '#002446',
+                  fontSize: '14px',
+                }}
+              >
+                Dr. D. Thenmozhi
+              </div>
+              <div
+                style={{
+                  textAlign: 'center',
+                  color: '#002446',
+                  fontSize: '11px',
+                }}
+              >
+                Associate Professor, CSE, SSNCE
+              </div>
+            </div>
+            <div>
+              <Image
+                src="/WorkshopSpeakers/xai4.jpeg"
+                alt="ai"
+                height={140}
+                width={140}
+                style={{ borderRadius: '100%' }}
+              />
+              <div
+                style={{
+                  textAlign: 'center',
+                  fontWeight: 'bold',
+                  color: '#002446',
+                  fontSize: '14px',
+                }}
+              >
+                Dr. B. Bharathi
+              </div>
+              <div
+                style={{
+                  textAlign: 'center',
+                  color: '#002446',
+                  fontSize: '11px',
+                }}
+              >
+                Associate Professor, CSE, SSNCE
               </div>
             </div>
           </div>
