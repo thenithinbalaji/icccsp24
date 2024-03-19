@@ -279,7 +279,7 @@ export default function Workshop() {
                   fontSize: '11px',
                 }}
               >
-                Associate Professor, MIT Anna University
+                Assistant Professor, MIT Anna University
               </div>
             </div>
           </div>
