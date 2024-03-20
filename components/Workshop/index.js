@@ -498,16 +498,20 @@ export default function Workshop() {
         </ul>
       </div>
 
+      <p style={{ fontSize: '20px', color: 'red' }}>
+        Thanks for the overwhelming response. The registration for Pre-Conference Workshops has been closed.
+      </p>
+
       <h5>
         <b>Payment link:</b>{' '}
         <a
           href="https://rzp.io/l/ICCCSP-2024"
           target="_blank"
           rel="noreferrer"
-          style={{ overflowWrap: 'break-word' }}
+          style={{ overflowWrap: 'break-word', opacity: "50%" }}
         >
           https://rzp.io/l/ICCCSP-2024
-        </a>
+        </a> <span style={{ color: "red" }}>(Closed)</span>
       </h5>
 
       <h5>
@@ -516,16 +520,12 @@ export default function Workshop() {
           href="https://forms.gle/BTFrxmk7FrU5mNmS7"
           target="_blank"
           rel="noreferrer"
-          style={{ overflowWrap: 'break-word' }}
+          style={{ overflowWrap: 'break-word', opacity: "50%" }}
         >
           https://forms.gle/BTFrxmk7FrU5mNmS7
-        </a>
+        </a> <span style={{ color: "red" }}>(Closed)</span>
       </h5>
 
-      <p style={{ fontSize: '20px', color: '#de4f45' }}>
-        The fees once paid is non-refundable, The fees covers Workshop Kit,
-        Participation certificate and Lunch.
-      </p>
-    </div>
+    </div >
   );
 }
