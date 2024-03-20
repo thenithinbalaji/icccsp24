@@ -13,6 +13,8 @@ import '../styles/speakers.scss';
 import '../styles/submission.scss';
 import '../styles/archive.scss';
 import '../styles/importantDates.scss';
+import '../styles/schedule.scss';
+import '../styles/tracks.scss';
 import '../styles/contact.scss';
 import '../styles/workshop.scss';
 import 'animate.css';

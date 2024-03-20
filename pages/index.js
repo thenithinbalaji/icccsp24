@@ -11,10 +11,12 @@ import Authors from '../components/Authors';
 import Registrations from '../components/Registrations';
 import Archive from '../components/Archive';
 import ImportantDates from '../components/ImportantDates';
+import Schedule from '../components/schedule';
 import Contact from '../components/Contact';
 import Workshop from '../components/Workshop';
 import PaymentDetails from '../components/PaymentDetails';
 import CallForPoster from '../components/CallForPoster';
+import Tracks from '../components/Tracks';
 
 export default function Home() {
   return (
@@ -32,6 +34,8 @@ export default function Home() {
       <HomeSection />
       <Conference />
       <Speakers />
+      <Schedule />
+      <Tracks />
       <Workshop />
       <CallForPaper />
       <CallForPoster />
@@ -43,7 +47,6 @@ export default function Home() {
       <Contact />
       <Archive />
       <Footer />
-
     </>
   );
 }
