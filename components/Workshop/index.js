@@ -92,35 +92,6 @@ export default function Workshop() {
                 IIITDM, Chennai
               </div>
             </div>
-
-            {/* <div>
-              <Image
-                src="/WorkshopSpeakers/imgspeaker2.png"
-                alt="ai"
-                height={140}
-                width={140}
-                style={{ borderRadius: '100%' }}
-              />
-              <div
-                style={{
-                  textAlign: 'center',
-                  fontWeight: 'bold',
-                  color: '#002446',
-                  fontSize: '14px',
-                }}
-              >
-                Dr. S. Bama
-              </div>
-              <div
-                style={{
-                  textAlign: 'center',
-                  color: '#002446',
-                  fontSize: '11px',
-                }}
-              >
-                Anna University, Chennai
-              </div>
-            </div> */}
           </div>
         </div>
 
@@ -331,19 +302,6 @@ export default function Workshop() {
             <b>Faculty Coordinators:</b> Dr. C. Aravindan, Dr. N. Sripriya, Mr.
             B. Senthilkumar, SSNCE
           </p>
-          {/* <p>
-            <b>
-              Workshop Website:{' '}
-              <a
-                href="https://sites.google.com/ssn.edu.in/tier-2024"
-                target="_blank"
-                rel="noreferrer"
-                style={{ overflowWrap: 'break-word' }}
-              >
-                TIER-2024
-              </a>
-            </b>
-          </p> */}
           <h4>Workshop Speakers</h4>
           <div
             style={{
