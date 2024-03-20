@@ -8,6 +8,5 @@ export const LINKS = [
   { name: 'Important Dates', href: 'important_dates' },
   { name: 'Registration', href: 'registration' },
   { name: 'Committee', href: 'committee' },
-  { name: 'Guidelines', href: 'authors' },
   { name: 'Contact', href: 'contact' },
 ];

@@ -8,7 +8,7 @@ const tables = [
     venue: 'IT Seminar Hall',
     sessionChairs: 'Dr. Vijay/BME & Dr. Vidhusha, SNU',
     sessionCoordinator: 'Dr. G. Sornavalli',
-    studentCoordinator: 'Aswath (8825705426)',
+    studentCoordinator: 'Aswath (+91 88257 05426)',
     records: [
       {
         paperID: 8,
@@ -47,7 +47,7 @@ const tables = [
     venue: 'Conference Hall',
     sessionChairs: 'Dr. D. Thenmozhi & Dr. S. Karthika',
     sessionCoordinator: 'Dr. E. Suganya',
-    studentCoordinator: 'Nithyasri (9384805204)',
+    studentCoordinator: 'Nithyasri (+91 93848 05204)',
     records: [
       {
         paperID: 22,
@@ -88,7 +88,7 @@ const tables = [
     venue: 'Alan Turing Lab',
     sessionChairs: 'Dr. Kishore/ECE & Dr. S. Chithra, MIT',
     sessionCoordinator: 'Dr. S. Anita',
-    studentCoordinator: 'Swetha (7338955731)',
+    studentCoordinator: 'Swetha (+91 73389 55731)',
     records: [
       {
         paperID: 160,
@@ -128,7 +128,7 @@ const tables = [
     venue: 'Old PG Lab',
     sessionChairs: 'Dr. K.B. Sundhar & Dr. P. Vasuki',
     sessionCoordinator: 'Dr. A. Saravanan',
-    studentCoordinator: 'Ananya (7305999396)',
+    studentCoordinator: 'Ananya (+91 73059 99396)',
     records: [
       {
         paperID: 4,
@@ -170,7 +170,7 @@ const tables = [
     venue: 'Alan Turing Lab',
     sessionChairs: 'Dr. V. Thanikachalam, VIT & Dr. T. Sree Sharmila, AU',
     sessionCoordinator: 'Dr. V. Arul Kumar',
-    studentCoordinator: 'Sahana Sree (9940640904)',
+    studentCoordinator: 'Sahana Sree (+91 99406 40904)',
     records: [
       {
         paperID: 74,
@@ -213,7 +213,7 @@ const tables = [
     venue: 'Old PG Lab',
     sessionChairs: 'Mr. R. Shankar, RNTBCI & Dr. R. Srinivasan',
     sessionCoordinator: 'Dr. A. Sandanakaruppan',
-    studentCoordinator: 'Ranjeev (8925188870)',
+    studentCoordinator: 'Ranjeev (+91 89251 88870)',
     records: [
       {
         paperID: 79,
@@ -254,7 +254,7 @@ const tables = [
     venue: 'Conference Hall',
     sessionChairs: 'Dr. S. Sasirekha, NITTTR & Dr. B. Bharathi/CSE',
     sessionCoordinator: 'Dr. Joe Louis Paul I. & Dr. J.K. Josephinejulina',
-    studentCoordinator: 'Vithula (9940297114)',
+    studentCoordinator: 'Vithula (+91 99402 97114)',
     records: [
       {
         paperID: 65,
@@ -327,20 +327,20 @@ export function TrackTable({ tableData }) {
           </th>
         </tr>
         <tr>
-          <th className="text-center" style={{ whiteSpace: 'nowrap' }}>
+          <th className="text-center" style={{ whiteSpace: '' }}>
             <b>S. No</b>
           </th>
-          <th className="text-center" style={{ whiteSpace: 'nowrap' }}>
+          <th className="text-center" style={{ whiteSpace: '' }}>
             <b>Paper ID</b>
           </th>
           <th
             className="text-center"
-            style={{ whiteSpace: 'nowrap' }}
+            style={{ whiteSpace: '' }}
             colSpan={3}
           >
             <b>Title</b>
           </th>
-          <th style={{ whiteSpace: 'nowrap' }} colSpan={2}>
+          <th style={{ whiteSpace: '' }} colSpan={2}>
             <b>Author</b>
           </th>
         </tr>
@@ -359,7 +359,7 @@ export function TrackTable({ tableData }) {
 
 export default function Tracks() {
   return (
-    <div id="tracks_schedule" className="tracksContainer">
+    <div id="tracks_schedule" className="tracksContainer" style={{ overflow: "auto" }}>
       <h1 className="text-center">
         <b style={{ textTransform: 'uppercase' }}>
           Paper Presentation Track Schedule
@@ -372,6 +372,7 @@ export default function Tracks() {
       >
         Day 2: 21st March 2024, Thursday
       </h3>
+
       {tables.slice(0, 4).map((table, idx) => (
         <TrackTable key={idx} tableData={table} />
       ))}
@@ -382,9 +383,11 @@ export default function Tracks() {
       >
         Day 3: 22nd March 2024, Friday
       </h3>
+
       {tables.slice(4, 7).map((table, idx) => (
         <TrackTable key={idx} tableData={table} />
       ))}
+
     </div>
   );
 }

@@ -1,9 +1,9 @@
 const items = [
   {
-    day: '21st March 2024, Thursday',
+    day: '21st March, Thursday',
     events: [
       {
-        time: '08:15 AM - 8:40 AM',
+        time: '08:15 AM - 08:40 AM',
         event: 'Inagural',
       },
       {
@@ -19,21 +19,21 @@ const items = [
         event: 'Paper Presentations\n<b>Track 1, 2, 3, 4</b>',
       },
       {
-        time: '12:30 PM - 1:30 PM',
+        time: '12:30 PM - 01:30 PM',
         event: 'Lunch Break',
       },
       {
-        time: '1:30 PM - 3:00 PM',
+        time: '01:30 PM - 03:00 PM',
         event:
           'Keynote Talk\n<b>Dr. Karl Mason</b>\nLecturer Above the Bar, School of Computer Science,\nUniversity of Galway, Galway, Ireland',
       },
     ],
   },
   {
-    day: '22nd March 2024, Friday',
+    day: '22nd March, Friday',
     events: [
       {
-        time: '8:30 AM - 10:00 AM',
+        time: '08:30 AM - 10:00 AM',
         event: `Keynote Talk\n<b>Dr. Wan Khairunizam</b>\nBrain Machine Interface Research Group (FTKE),\nUniversity Malaysia Perlis, Malaysia`,
       },
       {
@@ -47,17 +47,17 @@ const items = [
         colspan: 1,
       },
       {
-        time: '12:00 PM - 1:00 PM',
+        time: '12:00 PM - 01:00 PM',
         event: 'Lunch Break',
         colspan: 1,
         // addtionalEvent: `Poster Session`,
       },
       {
-        time: '1:00 PM - 3:00 PM',
+        time: '01:00 PM - 03:00 PM',
         event: 'Paper Presentations\n<b>Track 5, 6, 7</b>',
       },
       {
-        time: '3:15 PM',
+        time: '03:15 PM',
         event: 'Valedictory',
       },
     ],
@@ -66,7 +66,7 @@ const items = [
 
 export default function Schedule() {
   return (
-    <div id="program_schedule" className="scheduleContainer">
+    <div id="program_schedule" className="scheduleContainer" style={{ overflow: "auto" }}>
       <h1 className="text-center" style={{ marginBottom: '2rem' }}>
         <b>PROGRAM SCHEDULE</b>
       </h1>
@@ -90,7 +90,7 @@ export default function Schedule() {
                 </td>
                 {item.events.length > 0 && (
                   <>
-                    <td style={{ textAlign: 'center' }}>
+                    <td style={{ textAlign: 'center', whiteSpace: "nowrap" }}>
                       {item.events[0].time}
                     </td>
                     <td

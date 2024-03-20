@@ -83,19 +83,19 @@ export default function ImportantDates() {
                 )}
 
                 {idx === 6 && (
-                  <span style={{ color: 'red' }} className="animate__animated animate__flash animate__slower animate__infinite">
+                  <span style={{ color: 'red' }} >
                     Poster Submission
                   </span>
                 )}
 
                 {idx === 7 && (
-                  <span style={{ color: 'red' }} className="animate__animated animate__flash animate__slower animate__infinite">
+                  <span style={{ color: 'red' }}>
                     Poster Submission
                   </span>
                 )}
 
                 {idx === 8 && (
-                  <span style={{ color: 'red' }} className="animate__animated animate__flash animate__slower animate__infinite">
+                  <span style={{ color: 'red' }}>
                     Poster Submission
                   </span>
                 )}
