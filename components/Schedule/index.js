@@ -66,7 +66,7 @@ const items = [
 
 export default function Schedule() {
   return (
-    <div id="program_schedule" className="scheduleContainer" style={{ overflow: "auto" }}>
+    <div id="program_schedule" className="scheduleContainer" style={{ overflow: 'auto' }}>
       <h1 className="text-center" style={{ marginBottom: '2rem' }}>
         <b>PROGRAM SCHEDULE</b>
       </h1>
@@ -90,7 +90,7 @@ export default function Schedule() {
                 </td>
                 {item.events.length > 0 && (
                   <>
-                    <td style={{ textAlign: 'center', whiteSpace: "nowrap" }}>
+                    <td style={{ textAlign: 'center', whiteSpace: 'nowrap' }}>
                       {item.events[0].time}
                     </td>
                     <td

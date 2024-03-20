@@ -359,7 +359,7 @@ export function TrackTable({ tableData }) {
 
 export default function Tracks() {
   return (
-    <div id="tracks_schedule" className="tracksContainer" style={{ overflow: "auto" }}>
+    <div id="tracks_schedule" className="tracksContainer" style={{ overflow: 'auto' }}>
       <h1 className="text-center">
         <b style={{ textTransform: 'uppercase' }}>
           Paper Presentation Track Schedule

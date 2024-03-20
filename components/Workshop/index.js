@@ -466,10 +466,10 @@ export default function Workshop() {
           href="https://rzp.io/l/ICCCSP-2024"
           target="_blank"
           rel="noreferrer"
-          style={{ overflowWrap: 'break-word', opacity: "50%" }}
+          style={{ overflowWrap: 'break-word', opacity: '50%' }}
         >
           https://rzp.io/l/ICCCSP-2024
-        </a> <span style={{ color: "red" }}>(Closed)</span>
+        </a> <span style={{ color: 'red' }}>(Closed)</span>
       </h5>
 
       <h5>
@@ -478,10 +478,10 @@ export default function Workshop() {
           href="https://forms.gle/BTFrxmk7FrU5mNmS7"
           target="_blank"
           rel="noreferrer"
-          style={{ overflowWrap: 'break-word', opacity: "50%" }}
+          style={{ overflowWrap: 'break-word', opacity: '50%' }}
         >
           https://forms.gle/BTFrxmk7FrU5mNmS7
-        </a> <span style={{ color: "red" }}>(Closed)</span>
+        </a> <span style={{ color: 'red' }}>(Closed)</span>
       </h5>
 
     </div >

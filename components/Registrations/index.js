@@ -49,9 +49,9 @@ export default function Registration() {
       <br />
 
       <h5>
-        <b>Registration Fee Payment link:</b> <a href="https://rzp.io/l/ICCCSP-2024" target="_blank" rel="noreferrer" style={{ overflowWrap: 'break-word', opacity: "50%" }}>
+        <b>Registration Fee Payment link:</b> <a href="https://rzp.io/l/ICCCSP-2024" target="_blank" rel="noreferrer" style={{ overflowWrap: 'break-word', opacity: '50%' }}>
           https://rzp.io/l/ICCCSP-2024
-        </a> <span style={{ color: "red" }}>(Closed)</span>
+        </a> <span style={{ color: 'red' }}>(Closed)</span>
       </h5>
 
       <p>
@@ -61,15 +61,15 @@ export default function Registration() {
       </p>
 
       <h5>
-        <b>Paper Registration Form:</b> <a href="https://forms.gle/YfodreowTt3mNVeJ9" target="_blank" rel="noreferrer" style={{ overflowWrap: 'break-word', opacity: "50%" }}>
+        <b>Paper Registration Form:</b> <a href="https://forms.gle/YfodreowTt3mNVeJ9" target="_blank" rel="noreferrer" style={{ overflowWrap: 'break-word', opacity: '50%' }}>
           https://forms.gle/YfodreowTt3mNVeJ9
-        </a> <span style={{ color: "red" }}>(Closed)</span>
+        </a> <span style={{ color: 'red' }}>(Closed)</span>
       </h5>
 
       <h5>
-        <b>Pre-Conference Workshops Registration Form:</b> <a href="https://forms.gle/BTFrxmk7FrU5mNmS7" target="_blank" rel="noreferrer" style={{ overflowWrap: 'break-word', opacity: "50%" }}>
+        <b>Pre-Conference Workshops Registration Form:</b> <a href="https://forms.gle/BTFrxmk7FrU5mNmS7" target="_blank" rel="noreferrer" style={{ overflowWrap: 'break-word', opacity: '50%' }}>
           https://forms.gle/BTFrxmk7FrU5mNmS7
-        </a> <span style={{ color: "red" }}>(Closed)</span>
+        </a> <span style={{ color: 'red' }}>(Closed)</span>
       </h5>
     </div >
   );
