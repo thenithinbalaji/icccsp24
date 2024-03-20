@@ -11,7 +11,7 @@ import Authors from '../components/Authors';
 import Registrations from '../components/Registrations';
 import Archive from '../components/Archive';
 import ImportantDates from '../components/ImportantDates';
-import Schedule from '../components/schedule';
+import Schedule from '../components/Schedule';
 import Contact from '../components/Contact';
 import Workshop from '../components/Workshop';
 import PaymentDetails from '../components/PaymentDetails';
